@@ -15,10 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by [Prof. Stephen Bach](https://cs.brown.edu/people/sbach/). Currently, I am a research scientist intern at [Meta AI (FAIR)](https://ai.meta.com/research/) under the supervision of [Jean Maillard](https://maillard.it/). I am also an active contributor to open-source multilingual LLMs initiative (e.g., [BigScience](https://bigscience.huggingface.co/), [Aya](https://cohere.com/blog/aya-multilingual)) and NLP development for South-East Asian (SEA) languages. 
+I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by [Prof. Stephen Bach](https://cs.brown.edu/people/sbach/). Currently, I am a research scientist intern at [Meta AI (FAIR)](https://ai.meta.com/research/) under the supervision of [Jean Maillard](https://maillard.it/). 
 <!-- My research interests are centered around **multilingual, inclusive, and safe foundational models**.  -->
 
 <!-- Prior to joining Ph.D., I obtained a B.Sc. in Computer Science from [Minerva University](https://www.minerva.edu/), and I worked with linguists [Prof. Tiago Torrent](https://www.tiagotorrent.com/), [Prof. Oliver Czulo](https://home.uni-leipzig.de/czulo/), and [Collin F. Baker](https://www.icsi.berkeley.edu/icsi/people/collinb) on frame semantics during my undergrad. -->
+
+I actively contribute to open-source multilingual LLMs initiative (e.g., [BigScience](https://bigscience.huggingface.co/), [Aya](https://cohere.com/blog/aya-multilingual)) and NLP development for South-East Asian (SEA) languages. I also occasionally blog on [Substack](https://newsletter.yongzx.io/). 
 
 **I believe that intelligent systems should be multilingual, safe, and inclusive**. To this end, I work on following research directions:
 1. **<span style="color:brown">making frontier AI safer for all language users</span>** – My [discovery that low-resource languages can jailbreak GPT-4](https://arxiv.org/abs/2310.02446) pioneered and raised awareness for multilingual red-teaming. Since then, I work on safety research for *massively multilingual foundational models*.
