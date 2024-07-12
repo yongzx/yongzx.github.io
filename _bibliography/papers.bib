@@ -38,6 +38,12 @@
   year={2024},
   abstract={Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.},
   pdf={https://arxiv.org/pdf/2403.04893},
+  media1={VentureBeat},
+  media1url={https://venturebeat.com/ai/experts-call-for-legal-safe-harbor-so-researchers-journalists-and-artists-can-evaluate-ai-tools/},
+  media2={Federation of American Scientists},
+  media2url={https://fas.org/publication/safe-harbor-for-ai-researchers/},
+  media3={Knight First Amendment Institute},
+  media3url={https://knightcolumbia.org/blog/a-safe-harbor-for-ai-evaluation-and-red-teaming},
 }
 
 @article{yong2024lexc,
@@ -59,6 +65,12 @@
   abstract="Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? Our work introduces Aya, a massively multilingual generative language model that follows instructions in 101 languages of which over 50% are considered as lower-resourced. Aya outperforms mT0 and BLOOMZ on the majority of tasks while covering double the number of languages. We introduce extensive new evaluation suites that broaden the state-of-art for multilingual eval across 99 languages -- including discriminative and generative tasks, human evaluation, and simulated win rates that cover both held-out tasks and in-distribution performance. Furthermore, we conduct detailed investigations on the optimal finetuning mixture composition, data pruning, as well as the toxicity, bias, and safety of our models.",
   hf="https://huggingface.co/CohereForAI/aya-101",
   selected={true},
+  media1={The Washington Post},
+  media1url={https://www.washingtonpost.com/politics/2024/02/13/ftcs-bedoya-says-laws-keep-teens-off-social-media-wont-work},
+  media2={The Globe and Mail},
+  media2url={https://www.theglobeandmail.com/business/article-ai-chatbots-fall-short-in-dozens-of-languages-a-non-profit-project},
+  media3={SiliconANGLE},
+  media3url={https://siliconangle.com/2024/02/13/cohere-ai-unveils-aya-multilingual-open-source-ai-101-languages/},
 }
 
 @article{le2023bloom,
@@ -115,13 +127,20 @@
 @inproceedings{
 yong2023lowresource,
 title={Low-Resource Languages Jailbreak {GPT}-4},
+award={Best Paper Award},
 author={Zheng-Xin Yong and Cristina Menghini and Stephen Bach},
-booktitle={NeurIPS Socially Responsible Language Modelling Research Workshop},
+booktitle={NeurIPS Workshop: Socially Responsible Language Modelling Research (SoLaR)},
 year={2023},
 url={https://openreview.net/forum?id=pn83r8V2sv},
 pdf={https://arxiv.org/abs/2310.02446},
 abstract = "AI safety training and red-teaming of large language models (LLMs) are measures to mitigate the generation of unsafe content. Our work exposes the inherent cross-lingual vulnerability of these safety mechanisms, resulting from the linguistic inequality of safety training data, by successfully circumventing GPT-4's safeguard through translating unsafe English inputs into low-resource languages. On the AdvBenchmark, GPT-4 engages with the unsafe translated inputs and provides actionable items that can get the users towards their harmful goals 79% of the time, which is on par with or even surpassing state-of-the-art jailbreaking attacks. Other high-/mid-resource languages have significantly lower attack success rate, which suggests that the cross-lingual vulnerability mainly applies to low-resource languages. Previously, limited training on low-resource languages primarily affects speakers of those languages, causing technological disparities. However, our work highlights a crucial shift: this deficiency now poses a risk to all LLMs users. Publicly available translation APIs enable anyone to exploit LLMs' safety vulnerabilities. Therefore, our work calls for a more holistic red-teaming efforts to develop robust multilingual safeguards with wide language coverage.",
 selected={true},
+media1={New Scientist},
+media1url={https://www.newscientist.com/article/2398656-gpt-4-gave-advice-on-planning-terrorist-attacks-when-asked-in-zulu/}, 
+media2={ZDNet},
+media2url={https://www.zdnet.com/article/the-safety-of-openais-gpt-4-is-lost-in-translation/},
+media3={SDxCentral},
+media3url={https://www.sdxcentral.com/articles/feature/llms-have-a-multilingual-jailbreak-problem-how-you-can-stay-safe/2023/11/},
 }
 
 @inproceedings{yong-etal-2023-prompting,
@@ -142,7 +161,7 @@ selected={true},
       Garcia, Rowena  and
       Solorio, Thamar  and
       Aji, Alham Fikri",
-    booktitle = "EMNLP Computational Approaches to Linguistic Code-Switching Workshop",
+    booktitle = "EMNLP Workshop: Computational Approaches to Linguistic Code-Switching (CALCS)",
     year = "2023",
     address = "Singapore",
     publisher = "Association for Computational Linguistics",
@@ -150,6 +169,8 @@ selected={true},
     pdf = "https://aclanthology.org/2023.calcs-1.5.pdf",
     pages = "43--63",
     abstract = "The differences in decision making between behavioural models of voice interfaces are hard to capture using existing measures for the absolute performance of such models. For instance, two models may have a similar task success rate, but very different ways of getting there. In this paper, we propose a general methodology to compute the similarity of two dialogue behaviour models and investigate different ways of computing scores on both the semantic and the textual level. Complementing absolute measures of performance, we test our scores on three different tasks and show the practical usability of the measures.",
+    media1={WIRED},
+    media1url={https://www.wired.com/story/chatgpt-non-english-languages-ai-revolution/},
 }
 
 @inproceedings{winata-etal-2023-decades,
