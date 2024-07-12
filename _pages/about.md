@@ -24,7 +24,7 @@ Outside of PhD, I actively contribute to open-source multilingual LLMs initiativ
 
 **I believe that intelligent systems should be multilingual, safe, and inclusive**. To this end, I work on following research directions:
 1. **<span style="color:brown">making frontier AI safer for all language users</span>** – My [discovery that low-resource languages can jailbreak GPT-4](https://arxiv.org/abs/2310.02446) pioneered and raised awareness for multilingual red-teaming. Since then, I work on safety research for *multilingual foundational models*.
- - I was part of the Responsible AI team for [Aya](https://arxiv.org/abs/2402.07827) (SOTA fully open-source LLM from 2024--now) at Cohere For AI.
+ - I was part of the Responsible AI team for [Aya-101](https://arxiv.org/abs/2402.07827) (SOTA fully open-source LLM from 2024--now) at Cohere For AI.
  - I currently work on multilingual + multimodal safety for [Massively Multilingual Speech (MMS)](https://arxiv.org/abs/2305.13516) models at Meta AI. 
 
 2. **<span style="color:brown">building open-source multilingual LMs</span>** – I've contributed to the earliest English and multilingual instruction-following LLMs, such as [T0](https://arxiv.org/abs/2110.08207) (with [PromptSource](https://arxiv.org/abs/2202.01279)) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). I was also involved in the [development](https://arxiv.org/abs/2211.05100) and [evaluation](https://arxiv.org/abs/2210.15424) of BLOOM model at [BigScience](https://bigscience.huggingface.co/), and I helped collect Malay instruction-following data (as [Aya language ambassador](https://cohere.com/research/aya-contributors-test)) and perform [safety evaluation](https://arxiv.org/abs/2402.07827) for Aya model.
