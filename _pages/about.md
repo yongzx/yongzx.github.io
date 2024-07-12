@@ -20,7 +20,7 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University.
 
 <!-- Prior to joining Ph.D., I obtained a B.Sc. in Computer Science from [Minerva University](https://www.minerva.edu/), and I worked with linguists [Prof. Tiago Torrent](https://www.tiagotorrent.com/), [Prof. Oliver Czulo](https://home.uni-leipzig.de/czulo/), and [Collin F. Baker](https://www.icsi.berkeley.edu/icsi/people/collinb) on frame semantics during my undergrad. -->
 
-I actively contribute to open-source multilingual LLMs initiative (e.g., [BigScience](https://bigscience.huggingface.co/), [Aya](https://cohere.com/blog/aya-multilingual)) and NLP development for South-East Asian (SEA) languages. I also occasionally blog on [Substack](https://newsletter.yongzx.io/). 
+Outside of PhD, I actively contribute to open-source multilingual LLMs initiative (e.g., [BigScience](https://bigscience.huggingface.co/), [Aya](https://cohere.com/blog/aya-multilingual)) and NLP development for South-East Asian (SEA) languages. I also occasionally blog on [Substack](https://newsletter.yongzx.io/). 
 
 **I believe that intelligent systems should be multilingual, safe, and inclusive**. To this end, I work on following research directions:
 1. **<span style="color:brown">making frontier AI safer for all language users</span>** – My [discovery that low-resource languages can jailbreak GPT-4](https://arxiv.org/abs/2310.02446) pioneered and raised awareness for multilingual red-teaming. Since then, I work on safety research for *massively multilingual foundational models*.
