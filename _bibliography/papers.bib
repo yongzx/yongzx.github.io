@@ -1,0 +1,369 @@
+
+@article{li2024preference,
+  title={Preference Tuning For Toxicity Mitigation Generalizes Across Languages},
+  author={Li*, Xiaochen and Yong*, Zheng-Xin and Bach, Stephen H},
+  journal={arXiv},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2406.16235},
+  code={https://github.com/BatsResearch/cross-lingual-detox},
+  abstract="Detoxifying multilingual Large Language Models (LLMs) has become crucial due to their increasing global use. In this work, we explore zero-shot cross-lingual generalization of preference tuning in detoxifying LLMs. Unlike previous studies that show limited cross-lingual generalization for other safety tasks, we demonstrate that Direct Preference Optimization (DPO) training with only English data can significantly reduce toxicity in multilingual open-ended generations. For example, the probability of mGPT-1.3B generating toxic continuations drops from 46.8% to 3.9% across 17 different languages after training. Our results also extend to other multilingual LLMs, such as BLOOM, Llama3, and Aya-23. Using mechanistic interpretability tools like causal intervention and activation analysis, we identified the dual multilinguality property of MLP layers in LLMs, which explains the cross-lingual generalization of DPO. Finally, we show that bilingual sentence retrieval can predict the cross-lingual transferability of DPO preference tuning.",
+  selected={true},
+}
+
+@article{lovenia2024seacrowd,
+  title={SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages},
+  author={Lovenia, Holy and Mahendra, Rahmad and Akbar, Salsabil Maulana and Miranda, Lester James V and Santoso, Jennifer and Aco, Elyanah and Fadhilah, Akhdan and Mansurov, Jonibek and Imperial, Joseph Marvin and Kampman, Onno P and others},
+  journal={arXiv},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2406.10118},
+  abstract="Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, we introduce SEACrowd, a collaborative initiative that consolidates a comprehensive resource hub that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in SEA.",
+  code={https://github.com/SEACrowd},
+
+}
+
+@article{romero2024cvqa,
+  title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
+  author={David Romero and Chenyang Lyu and Haryo Akbarianto Wibowo and Teresa Lynn and Injy Hamed and Aditya Nanda Kishore and Aishik Mandal and Alina Dragonetti and Artem Abzaliev and Atnafu Lambebo Tonja and Bontu Fufa Balcha and Chenxi Whitehouse and Christian Salamea and Dan John Velasco and David Ifeoluwa Adelani and David Le Meur and Emilio Villa-Cueva and Fajri Koto and Fauzan Farooqui and Frederico Belcavello and Ganzorig Batnasan and Gisela Vallejo and Grainne Caulfield and Guido Ivetta and Haiyue Song and Henok Biadglign Ademtew and Hernán Maina and Holy Lovenia and Israel Abebe Azime and Jan Christian Blaise Cruz and Jay Gala and Jiahui Geng and Jesus-German Ortiz-Barajas and Jinheon Baek and Jocelyn Dunstan and Laura Alonso Alemany and Kumaranage Ravindu Yasas Nagasinghe and Luciana Benotti and Luis Fernando D'Haro and Marcelo Viridiano and Marcos Estecha-Garitagoitia and Maria Camila Buitrago Cabrera and Mario Rodríguez-Cantelar and Mélanie Jouitteau and Mihail Mihaylov and Mohamed Fazli Mohamed Imam and Muhammad Farid Adilazuarda and Munkhjargal Gochoo and Munkh-Erdene Otgonbold and Naome Etori and Olivier Niyomugisha and Paula Mónica Silva and Pranjal Chitale and Raj Dabre and Rendi Chevi and Ruochen Zhang and Ryandito Diandaru and Samuel Cahyawijaya and Santiago Góngora and Soyeong Jeong and Sukannya Purkayastha and Tatsuki Kuribayashi and Thanmay Jayakumar and Tiago Timponi Torrent and Toqeer Ehsan and Vladimir Araujo and Yova Kementchedjhieva and Zara Burzo and Zheng Wei Lim and Zheng-Xin Yong and Oana Ignat and Joan Nwatu and Rada Mihalcea and Thamar Solorio and Alham Fikri Aji},
+  journal={arXiv},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2406.05967},
+  abstract="Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field.",
+  website={https://cvqa-benchmark.org/},
+}
+
+@article{longpre2024safe,
+  title={A safe harbor for ai evaluation and red teaming},
+  author={Shayne Longpre and Sayash Kapoor and Kevin Klyman and Ashwin Ramaswami and Rishi Bommasani and Borhane Blili-Hamelin and Yangsibo Huang and Aviya Skowron and Zheng-Xin Yong and Suhas Kotha and Yi Zeng and Weiyan Shi and Xianjun Yang and Reid Southen and Alexander Robey and Patrick Chao and Diyi Yang and Ruoxi Jia and Daniel Kang and Sandy Pentland and Arvind Narayanan and Percy Liang and Peter Henderson},
+  journal={ICML},
+  year={2024},
+  abstract={Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.},
+  pdf={https://arxiv.org/pdf/2403.04893},
+}
+
+@article{yong2024lexc,
+  title={LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons},
+  author={Yong, Zheng-Xin and Menghini, Cristina and Bach, Stephen H},
+  journal={arXiv},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2402.14086},
+  abstract="Data scarcity in low-resource languages can be addressed with word-to-word translations from labeled task data in high-resource languages using bilingual lexicons. However, bilingual lexicons often have limited lexical overlap with task data, which results in poor translation coverage and lexicon utilization. We propose lexicon-conditioned data generation (LexC-Gen), a method that generates low-resource-language classification task data at scale. Specifically, LexC-Gen first uses high-resource-language words from bilingual lexicons to generate lexicon-compatible task data, and then it translates them into low-resource languages with bilingual lexicons via word translation. Across 17 extremely low-resource languages, LexC-Gen generated data is competitive with expert-translated gold data, and yields on average 5.6 and 8.9 points improvement over existing lexicon-based word translation methods on sentiment analysis and topic classification tasks respectively. We show that conditioning on bilingual lexicons is the key component of LexC-Gen. LexC-Gen is also practical -- it only needs a single GPU to generate data at scale. It works well with open-access LLMs, and its cost is one-fifth of the cost of GPT4-based multilingual data generation.",
+  code={https://github.com/BatsResearch/LexC-Gen},
+}
+
+@article{ustun2024aya,
+  title={Aya model: An instruction finetuned open-access multilingual language model},
+  author={Ahmet Üstün* and Viraat Aryabumi* and Zheng-Xin Yong* and Wei-Yin Ko* and Daniel D'souza* and Gbemileke Onilude and Neel Bhandari and Shivalika Singh and Hui-Lee Ooi and Amr Kayid and Freddie Vargus and Phil Blunsom and Shayne Longpre and Niklas Muennighoff and Marzieh Fadaee and Julia Kreutzer and Sara Hooker},
+  journal={ACL},
+  year={2024},
+  pdf="https://arxiv.org/pdf/2402.07827",
+  abstract="Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? Our work introduces Aya, a massively multilingual generative language model that follows instructions in 101 languages of which over 50% are considered as lower-resourced. Aya outperforms mT0 and BLOOMZ on the majority of tasks while covering double the number of languages. We introduce extensive new evaluation suites that broaden the state-of-art for multilingual eval across 99 languages -- including discriminative and generative tasks, human evaluation, and simulated win rates that cover both held-out tasks and in-distribution performance. Furthermore, we conduct detailed investigations on the optimal finetuning mixture composition, data pruning, as well as the toxicity, bias, and safety of our models.",
+  hf="https://huggingface.co/CohereForAI/aya-101",
+  selected={true},
+}
+
+@article{le2023bloom,
+  title={Bloom: A 176b-parameter open-access multilingual language model},
+  author={BigScience Collaboration},
+  year={2023},
+    journal={arXiv},
+  pdf = "https://arxiv.org/pdf/2211.05100",
+  abstract = "Large language models (LLMs) have been shown to be able to perform new tasks based on a few demonstrations or natural language instructions. While these capabilities have led to widespread adoption, most LLMs are developed by resource-rich organizations and are frequently kept from the public. As a step towards democratizing this powerful technology, we present BLOOM, a 176B-parameter open-access language model designed and built thanks to a collaboration of hundreds of researchers. BLOOM is a decoder-only Transformer language model that was trained on the ROOTS corpus, a dataset comprising hundreds of sources in 46 natural and 13 programming languages (59 in total). We find that BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask prompted finetuning. To facilitate future research and applications using LLMs, we publicly release our models and code under the Responsible AI License.",
+  code="https://github.com/bigscience-workshop",
+}
+
+@inproceedings{aji-etal-2023-current,
+    title = "Current Status of {NLP} in South {E}ast {A}sia with Insights from Multilingualism and Language Diversity",
+    author = {Aji, Alham Fikri  and
+      Forde, Jessica Zosa  and
+      Loo, Alyssa Marie  and
+      Sutawika, Lintang  and
+      Wang, Skyler  and
+      Winata, Genta Indra  and
+      Yong, Zheng-Xin  and
+      Zhang, Ruochen  and
+      Do{\u{g}}ru{\"o}z, A. Seza  and
+      Tan, Yin Lin  and
+      Cruz, Jan Christian Blaise},
+    editor = "Chen, Yun-Nung (Vivian)  and
+      Kurohashi, Sadao",
+    booktitle = "AACL-IJCNLP 2023 Tutorials",
+    year = "2023",
+    address = "Nusa Dua, Bali",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.ijcnlp-tutorials.2",
+    pdf = "https://aclanthology.org/2023.ijcnlp-tutorials.2.pdf",
+    doi = "10.18653/v1/2023.ijcnlp-tutorials.2",
+    pages = "8--13",
+}
+
+@inproceedings{dogruoz-etal-2023-representativeness,
+    title = "Representativeness as a Forgotten Lesson for Multilingual and Code-switched Data Collection and Preparation",
+    author = {Do{\u{g}}ru{\"o}z, A. Seza  and
+      Sitaram, Sunayana  and
+      Yong, Zheng-Xin},
+    booktitle = "EMNLP Findings",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.382",
+    pdf = "https://aclanthology.org/2023.findings-emnlp.382.pdf",
+    doi = "10.18653/v1/2023.findings-emnlp.382",
+    pages = "5751--5767",
+    abstract = "Multilingualism is widespread around the world and code-switching (CSW) is a common practice among different language pairs/tuples across locations and regions. However, there is still not much progress in building successful CSW systems, despite the recent advances in Massive Multilingual Language Models (MMLMs). We investigate the reasons behind this setback through a critical study about the existing CSW data sets (68) across language pairs in terms of the collection and preparation (e.g. transcription and annotation) stages. This in-depth analysis reveals that \textbf{a)} most CSW data involves English ignoring other language pairs/tuples \textbf{b)} there are flaws in terms of representativeness in data collection and preparation stages due to ignoring the location based, socio-demographic and register variation in CSW. In addition, lack of clarity on the data selection and filtering stages shadow the representativeness of CSW data sets. We conclude by providing a short check-list to improve the representativeness for forthcoming studies involving CSW data collection and preparation.",
+}
+
+@inproceedings{
+yong2023lowresource,
+title={Low-Resource Languages Jailbreak {GPT}-4},
+author={Zheng-Xin Yong and Cristina Menghini and Stephen Bach},
+booktitle={NeurIPS Socially Responsible Language Modelling Research Workshop},
+year={2023},
+url={https://openreview.net/forum?id=pn83r8V2sv},
+pdf={https://arxiv.org/abs/2310.02446},
+abstract = "AI safety training and red-teaming of large language models (LLMs) are measures to mitigate the generation of unsafe content. Our work exposes the inherent cross-lingual vulnerability of these safety mechanisms, resulting from the linguistic inequality of safety training data, by successfully circumventing GPT-4's safeguard through translating unsafe English inputs into low-resource languages. On the AdvBenchmark, GPT-4 engages with the unsafe translated inputs and provides actionable items that can get the users towards their harmful goals 79% of the time, which is on par with or even surpassing state-of-the-art jailbreaking attacks. Other high-/mid-resource languages have significantly lower attack success rate, which suggests that the cross-lingual vulnerability mainly applies to low-resource languages. Previously, limited training on low-resource languages primarily affects speakers of those languages, causing technological disparities. However, our work highlights a crucial shift: this deficiency now poses a risk to all LLMs users. Publicly available translation APIs enable anyone to exploit LLMs' safety vulnerabilities. Therefore, our work calls for a more holistic red-teaming efforts to develop robust multilingual safeguards with wide language coverage.",
+selected={true},
+}
+
+@inproceedings{yong-etal-2023-prompting,
+    title = "Prompting Multilingual Large Language Models to Generate Code-Mixed Texts: The Case of South {E}ast {A}sian Languages",
+    author = "Yong, Zheng-Xin  and
+      Zhang, Ruochen  and
+      Forde, Jessica  and
+      Wang, Skyler  and
+      Subramonian, Arjun  and
+      Lovenia, Holy  and
+      Cahyawijaya, Samuel  and
+      Winata, Genta  and
+      Sutawika, Lintang  and
+      Cruz, Jan Christian Blaise  and
+      Tan, Yin Lin  and
+      Phan, Long  and
+      Phan, Long  and
+      Garcia, Rowena  and
+      Solorio, Thamar  and
+      Aji, Alham Fikri",
+    booktitle = "EMNLP Computational Approaches to Linguistic Code-Switching Workshop",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.calcs-1.5",
+    pdf = "https://aclanthology.org/2023.calcs-1.5.pdf",
+    pages = "43--63",
+    abstract = "The differences in decision making between behavioural models of voice interfaces are hard to capture using existing measures for the absolute performance of such models. For instance, two models may have a similar task success rate, but very different ways of getting there. In this paper, we propose a general methodology to compute the similarity of two dialogue behaviour models and investigate different ways of computing scores on both the semantic and the textual level. Complementing absolute measures of performance, we test our scores on three different tasks and show the practical usability of the measures.",
+}
+
+@inproceedings{winata-etal-2023-decades,
+    title = "The Decades Progress on Code-Switching Research in {NLP}: A Systematic Survey on Trends and Challenges",
+    author = "Winata, Genta  and
+      Aji, Alham Fikri  and
+      Yong, Zheng-Xin  and
+      Solorio, Thamar",
+    booktitle = "ACL Findings",
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.185",
+    pdf = "https://aclanthology.org/2023.findings-acl.185.pdf",
+    doi = "10.18653/v1/2023.findings-acl.185",
+    pages = "2936--2978",
+    abstract = "Code-Switching, a common phenomenon in written text and conversation, has been studied over decades by the natural language processing (NLP) research community. Initially, code-switching is intensively explored by leveraging linguistic theories and, currently, more machine-learning oriented approaches to develop models. We introduce a comprehensive systematic survey on code-switching research in natural language processing to understand the progress of the past decades and conceptualize the challenges and tasks on the code-switching topic. Finally, we summarize the trends and findings and conclude with a discussion for future direction and open questions for further investigation.",
+}
+
+
+@inproceedings{yong-etal-2023-bloom,
+    title = "{BLOOM}+1: Adding Language Support to {BLOOM} for Zero-Shot Prompting",
+    author = "Yong, Zheng-Xin  and
+      Schoelkopf, Hailey  and
+      Muennighoff, Niklas  and
+      Aji, Alham Fikri  and
+      Adelani, David Ifeoluwa  and
+      Almubarak, Khalid  and
+      Bari, M Saiful  and
+      Sutawika, Lintang  and
+      Kasai, Jungo  and
+      Baruwa, Ahmed  and
+      Winata, Genta  and
+      Biderman, Stella  and
+      Raff, Edward  and
+      Radev, Dragomir  and
+      Nikoulina, Vassilina",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "ACL",
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.653",
+    pdf = "https://aclanthology.org/2023.acl-long.653.pdf",
+    code = "https://github.com/bigscience-workshop/multilingual-modeling",
+    doi = "10.18653/v1/2023.acl-long.653",
+    pages = "11682--11703",
+    abstract = "The BLOOM model is a large publicly available multilingual language model, but its pretraining was limited to 46 languages. To extend the benefits of BLOOM to other languages without incurring prohibitively large costs, it is desirable to adapt BLOOM to new languages not seen during pretraining. In this work, we apply existing language adaptation strategies to BLOOM and benchmark its zero-shot prompting performance on eight new languages in a resource-constrained setting. We find language adaptation to be effective at improving zero-shot performance in new languages. Surprisingly, we find that adapter-based finetuning is more effective than continued pretraining for large models. In addition, we discover that prompting performance is not significantly affected by language specifics, such as the writing system. It is primarily determined by the size of the language adaptation data. We also add new languages to BLOOMZ, which is a multitask finetuned version of BLOOM capable of following task instructions zero-shot. We find including a new language in the multitask fine-tuning mixture to be the most effective method to teach BLOOMZ a new language. We conclude that with sufficient training data language adaptation can generalize well to diverse languages. Our code is available at \url{https://github.com/bigscience-workshop/multilingual-modeling}.",
+    selected={true},
+}
+
+
+@inproceedings{muennighoff-etal-2023-crosslingual,
+    title = "Crosslingual Generalization through Multitask Finetuning",
+    author = "Muennighoff, Niklas  and
+      Wang, Thomas  and
+      Sutawika, Lintang  and
+      Roberts, Adam  and
+      Biderman, Stella  and
+      Le Scao, Teven  and
+      Bari, M Saiful  and
+      Shen, Sheng  and
+      Yong, Zheng-Xin  and
+      Schoelkopf, Hailey  and
+      Tang, Xiangru  and
+      Radev, Dragomir  and
+      Aji, Alham Fikri  and
+      Almubarak, Khalid  and
+      Albanie, Samuel  and
+      Alyafeai, Zaid  and
+      Webson, Albert  and
+      Raff, Edward  and
+      Raffel, Colin",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "ACL",
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.891",
+    pdf = "https://aclanthology.org/2023.acl-long.891.pdf",
+    code = "https://github.com/bigscience-workshop/xmtf",
+    doi = "10.18653/v1/2023.acl-long.891",
+    pages = "15991--16111",
+    abstract = "Multitask prompted finetuning (MTF) has been shown to help large language models generalize to new tasks in a zero-shot setting, but so far explorations of MTF have focused on English data and models. We apply MTF to the pretrained multilingual BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0. We find finetuning large multilingual language models on English tasks with English prompts allows for task genrealization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks leading to various state-of-the-art zero-shot results. We also investigate finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset. We find training on these machine-translated prompts leads to better performance on human-written prompts in the respective languages. Surprisingly, we find models are capable of zero-shot generalization to tasks in languages they have never intentionally seen. We conjecture that the models are learning higher-level capabilities that are both task- and language-agnostic. In addition, we introduce xP3, a composite of supervised datasets in 46 languages with English and machine-translated prompts. Our code, datasets and models are freely available at \url{https://github.com/bigscience-workshop/xmtf}.",
+}
+
+@inproceedings{le-scao-etal-2022-language,
+    title = "What Language Model to Train if You Have One Million {GPU} Hours?",
+    author = "Le Scao, Teven  and
+      Wang, Thomas  and
+      Hesslow, Daniel  and
+      Bekman, Stas  and
+      Bari, M Saiful  and
+      Biderman, Stella  and
+      Elsahar, Hady  and
+      Muennighoff, Niklas  and
+      Phang, Jason  and
+      Press, Ofir  and
+      Raffel, Colin  and
+      Sanh, Victor  and
+      Shen, Sheng  and
+      Sutawika, Lintang  and
+      Tae, Jaesung  and
+      Yong, Zheng-Xin  and
+      Launay, Julien  and
+      Beltagy, Iz",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "EMNLP Findings",
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.54",
+    pdf = "hhttps://aclanthology.org/2022.findings-emnlp.54.pdf",
+    doi = "10.18653/v1/2022.findings-emnlp.54",
+    pages = "765--782",
+    abstract = "The crystallization of modeling methods around the Transformer architecture has been a boon for practitioners. Simple, well-motivated architectural variations can transfer across tasks and scale, increasing the impact of modeling research. However, with the emergence of state-of-the-art 100B+ parameters models, large language models are increasingly expensive to accurately design and train. Notably, it can be difficult to evaluate how modeling decisions may impact emergent capabilities, given that these capabilities arise mainly from sheer scale alone.In the process of building BLOOM{--}the Big Science Large Open-science Open-access Multilingual language model{--}our goal is to identify an architecture and training setup that makes the best use of our 1,000,000 A100-GPU-hours budget.Specifically, we perform an ablation study at the billion-parameter scale comparing different modeling practices and their impact on zero-shot generalization.In addition, we study the impact of various popular pre-training corpora on zero-shot generalization. We also study the performance of a multilingual model and how it compares to the English-only one. Finally, we consider the scaling behaviour of Transformers to choose the target model size, shape, and training setup. All our models and code are open-sourced at https://huggingface.co/bigscience.",
+}
+
+
+@inproceedings{bach-etal-2022-promptsource,
+    title = "{P}rompt{S}ource: An Integrated Development Environment and Repository for Natural Language Prompts",
+    author = "Bach*, Stephen  and
+      Sanh*, Victor  and
+      Yong, Zheng-Xin  and
+      Webson, Albert  and
+      Raffel, Colin  and
+      Nayak, Nihal V.  and
+      Sharma, Abheesht  and
+      Kim, Taewoon  and
+      Bari, M Saiful  and
+      Fevry, Thibault  and
+      Alyafeai, Zaid  and
+      Dey, Manan  and
+      Santilli, Andrea  and
+      Sun, Zhiqing  and
+      Ben-david, Srulik  and
+      Xu, Canwen  and
+      Chhablani, Gunjan  and
+      Wang, Han  and
+      Fries, Jason  and
+      Al-shaibani, Maged  and
+      Sharma, Shanya  and
+      Thakker, Urmish  and
+      Almubarak, Khalid  and
+      Tang, Xiangru  and
+      Radev, Dragomir  and
+      Jiang, Mike Tian-jian  and
+      Rush, Alexander",
+    booktitle = "ACL Demo",
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-demo.9",
+    pdf = "https://aclanthology.org/2022.acl-demo.9.pdf",
+    doi = "10.18653/v1/2022.acl-demo.9",
+    pages = "93--104",
+    code = "https://github.com/bigscience-workshop/promptsource",
+    abstract = "PromptSource is a system for creating, sharing, and using natural language prompts. Prompts are functions that map an example from a dataset to a natural language input and target output. Using prompts to train and query language models is an emerging area in NLP that requires new tools that let users develop and refine these prompts collaboratively. PromptSource addresses the emergent challenges in this new setting with (1) a templating language for defining data-linked prompts, (2) an interface that lets users quickly iterate on prompt development by observing outputs of their prompts on many examples, and (3) a community-driven set of guidelines for contributing new prompts to a common pool. Over 2,000 prompts for roughly 170 datasets are already available in PromptSource. PromptSource is available at \url{https://github.com/bigscience-workshop/promptsource}.",
+}
+
+@inproceedings{yong-etal-2022-frame,
+    title = "Frame Shift Prediction",
+    author = "Yong, Zheng-Xin  and Watson, Patrick D.  and Timponi Torrent, Tiago  and Czulo, Oliver  and Baker, Collin",
+    booktitle = "LREC",
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.103",
+    pages = "976--986",
+    pdf="https://aclanthology.org/2022.lrec-1.103.pdf",
+    code="https://github.com/yongzx/Semantic-Frame-Shift",
+    abstract = "Frame shift is a cross-linguistic phenomenon in translation which results in corresponding pairs of linguistic material evoking different frames. The ability to predict frame shifts would enable (semi-)automatic creation of multilingual frame annotations and thus speeding up FrameNet creation through annotation projection. Here, we first characterize how frame shifts result from other linguistic divergences such as translational divergences and construal differences. Our analysis also shows that many pairs of frames in frame shifts are multi-hop away from each other in Berkeley FrameNet{'}s net-like configuration. Then, we propose the Frame Shift Prediction task and demonstrate that our graph attention networks, combined with auxiliary training, can learn cross-linguistic frame-to-frame correspondence and predict frame shifts.",
+}
+
+
+@inproceedings{
+sanh2022multitask,
+title={Multitask Prompted Training Enables Zero-Shot Task Generalization},
+author={Victor Sanh* and Albert Webson* and Colin Raffel* and Stephen Bach* and Lintang Sutawika and Zaid Alyafeai and Antoine Chaffin and Arnaud Stiegler and Arun Raja and Manan Dey and M Saiful Bari and Canwen Xu and Urmish Thakker and Shanya Sharma Sharma and Eliza Szczechla and Taewoon Kim and Gunjan Chhablani and Nihal Nayak and Debajyoti Datta and Jonathan Chang and Mike Tian-Jian Jiang and Han Wang and Matteo Manica and Sheng Shen and Zheng-Xin Yong and Harshit Pandey and Rachel Bawden and Thomas Wang and Trishala Neeraj and Jos Rozen and Abheesht Sharma and Andrea Santilli and Thibault Fevry and Jason Alan Fries and Ryan Teehan and Teven Le Scao and Stella Biderman and Leo Gao and Thomas Wolf and Alexander M Rush},
+booktitle={ICLR},
+year={2022},
+url="https://arxiv.org/pdf/2110.08207",
+pdf="https://arxiv.org/pdf/2110.08207",
+code="https://github.com/bigscience-workshop/t-zero",
+abstract = "Large language models have recently been shown to attain reasonable zero-shot generalization on a diverse set of tasks (Brown et al., 2020). It has been hypothesized that this is a consequence of implicit multitask learning in language models' pretraining (Radford et al., 2019). Can zero-shot generalization instead be directly induced by explicit multitask learning? To test this question at scale, we develop a system for easily mapping any natural language tasks into a human-readable prompted form. We convert a large set of supervised datasets, each with multiple prompts with diverse wording. These prompted datasets allow for benchmarking the ability of a model to perform completely held-out tasks. We fine-tune a pretrained encoder-decoder model (Raffel et al., 2020; Lester et al., 2021) on this multitask mixture covering a wide variety of tasks. The model attains strong zero-shot performance on several standard datasets, often outperforming models up to 16x its size. Further, our approach attains strong performance on a subset of tasks from the BIG-bench benchmark, outperforming models up to 6x its size.",
+}
+
+@inproceedings{yong2020semi,
+  title={Semi-supervised deep embedded clustering with anomaly detection for semantic frame induction},
+  author={Yong, Zheng-Xin and Torrent, Tiago Timponi},
+  booktitle={LREC},
+  pages={3509--3519},
+  year={2020},
+  url="https://aclanthology.org/2020.lrec-1.431.pdf",
+pdf="https://aclanthology.org/2020.lrec-1.431.pdf",
+code="https://github.com/yongzx/SDEC-AD",
+abstract = "Although FrameNet is recognized as one of the most fine-grained lexical databases, its coverage of lexical units is still limited. To tackle this issue, we propose a two-step frame induction process: for a set of lexical units not yet present in Berkeley FrameNet data release 1.7, first remove those that cannot fit into any existing semantic frame in FrameNet; then, assign the remaining lexical units to their correct frames. We also present the Semi-supervised Deep Embedded Clustering with Anomaly Detection (SDEC-AD) model—an algorithm that maps high-dimensional contextualized vector representations of lexical units to a low-dimensional latent space for better frame prediction and uses reconstruction error to identify lexical units that cannot evoke frames in FrameNet. SDEC-AD outperforms the state-of-the-art methods in both steps of the frame induction process. Empirical results also show that definitions provide contextual information for representing and characterizing the frame membership of lexical units.",
+}
+
+@article{tan2016using,
+  title={Using a chemiresistor-based alkane sensor to distinguish exhaled breaths of lung cancer patients from subjects with no lung cancer},
+  author={Tan, Jiunn-Liang and Yong, Zheng-Xin and Liam, Chong-Kin},
+  journal={Journal of Thoracic Disease},
+  volume={8},
+  number={10},
+  pages={2772},
+  year={2016},
+  publisher={AME Publications},
+pdf="https://jtd.amegroups.org/article/view/9989/pdf",
+abstract = "Breath alkanes are reported to be able to discriminate lung cancer patients from healthy people. A simple chemiresistor-based sensor was designed to respond to alkanes by a change in resistance measured by a digital multimeter connected to the sensor. In preclinical experiments, the sensor response was found to have a strong positive linear relationship with alkane compounds and not responsive to water. This study aimed to determine the ability of the alkane sensor to distinguish the exhaled breaths of lung cancer patients from that of chronic obstructive pulmonary disease (COPD) patients and control subjects without lung cancer. In this cross-sectional study, 12 treatment-naive patients with lung cancer, 12 ex- or current smokers with COPD and 13 never-smokers without lung disease were asked to exhale through a drinking straw into a prototype breath-in apparatus made from an empty 125 mL Vitagen® bottle with the chemiresistor sensor attached at its inside bottom to measure the sensor peak output (percentage change of baseline resistance measured before exhalation to peak resistance) and the time taken for the baseline resistance to reach peak resistance. Analysis of multivariate variance and post-hoc Tukey test revealed that the peak output and the time to peak values for the lung cancer patients were statistically different from that for both the COPD patients and the controls without lung disease, Pillai’s Trace =0.393, F=3.909, df = (4, 64), P=0.007. A 2.20% sensor peak output and a 90-s time to peak gave 83.3% sensitivity and 88% specificity in diagnosing lung cancer. Tobacco smoking did not affect the diagnostic accuracy of the sensor. The alkane sensor could discriminate patients with lung cancer from COPD patients and people without lung disease. Its potential utility as a simple, cheap and non-invasive test for early lung cancer detection needs further studies.",
+}
