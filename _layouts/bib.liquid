@@ -122,13 +122,13 @@
     <!-- Awards/Achievements -->
     {% if entry.award %}
       <div class="title">
-        <span style="color:brown">{{ entry.award }}</span>
+        <span style="color:brown; font-weight:bold">{{ entry.award }}</span>
       </div>
     {% endif %}
 
     {% if entry.media1 %}
       <div class="title">
-        <span style="color:blue">
+        <span style="font-weight:bold">
           Also featured in: 
         </span>
           <a href="{{ entry.media1url }}">{{entry.media1}}</a>
