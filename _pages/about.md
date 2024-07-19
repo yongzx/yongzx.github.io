@@ -23,7 +23,7 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University.
 Outside of PhD, I actively contribute to open-source multilingual LLMs initiative (e.g., [BigScience](https://bigscience.huggingface.co/), [Aya](https://cohere.com/blog/aya-multilingual)) and NLP development for South-East Asian (SEA) languages. I also occasionally blog on [Substack](https://newsletter.yongzx.io/). 
 
 **I believe that intelligent systems should serve everyone across the world**. This requires **multilingual, safe, and inclusive AI**. To this end, I work on following research directions:
-1. **<span style="color:brown">making frontier AI safer for all language users</span>** – My [discovery that low-resource languages can jailbreak GPT-4](https://arxiv.org/abs/2310.02446) pioneered and raised awareness for multilingual red-teaming. Since then, I work on responsible AI research for *multilingual foundational models*.
+1. **<span style="color:brown">making frontier AI safer for all language users</span>** – My [discovery that low-resource languages can jailbreak GPT-4](https://arxiv.org/abs/2310.02446) highlights the need for multilingual red-teaming. Since then, I work on responsible AI research for *multilingual foundational models*.
  - I was part of the Responsible Release team for [Aya-101](https://arxiv.org/abs/2402.07827) (SOTA fully open-source multilingual LLM from 2024--now) at Cohere For AI.
  - I currently work on bias mitigation for [Massively Multilingual Speech (MMS)](https://arxiv.org/abs/2305.13516) models at Meta AI. 
 
