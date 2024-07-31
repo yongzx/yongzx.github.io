@@ -6,9 +6,3 @@
 - [2023/07]   🪑 Serving as the Area Chair for the Multilingualism & Linguistic Diversity Track in [EMNLP'23](https://2023.emnlp.org/). 
 - [2023/06]   🐻 Passed my candidacy (in May) and released [a blog post of my mid-PhD reflections](https://yongzx.github.io/blog/posts/reflection-2year-PhD/).
 - [2023/05]   🌊 [Interviewed by Wired](https://www.wired.com/story/chatgpt-non-english-languages-ai-revolution/) on our [code-switching paper](https://arxiv.org/abs/2303.13592) and grassroot research initiatve for Southeast Asian (SEA) languages.
-- [2023/05]   🌸 Three multilingual papers ([BLOOM+1](https://arxiv.org/abs/2212.09535), [BLOOMZ](https://arxiv.org/abs/2211.01786) and [code-switching survey](https://arxiv.org/abs/2212.09660)) are accepted to ACL'23!
-- [2022/04]   🖼️ Our work on [predicting frame shifts](https://arxiv.org/abs/2201.01837) is accepted to LREC'22.
-- [2022/03]   🌸 [PromptSource paper](https://arxiv.org/abs/2202.01279) is out and accepted to ACL'22 Demo track.
-- [2022/01]   🌸 [T0 paper](https://arxiv.org/abs/2110.08207) is accepted to ICLR'22 (Spotlight) and its [blog post](https://bigscience.huggingface.co/blog/t0) is out.
-- [2021/06]   🐻 Excited to start my PhD journey at Brown University.
-- [2021/05]   🎓 Graduated from Minerva University. -->

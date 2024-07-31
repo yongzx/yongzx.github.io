@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our most recent multilingual safety work is out. We explain why [DPO can generalize zero-shot across languages for LLM detoxification](https://arxiv.org/abs/2406.16235).
+🔥 The first multilingual safety + interpretability work on [why DPO detoxification can generalize zero-shot across languages](https://arxiv.org/abs/2406.16235) is out!

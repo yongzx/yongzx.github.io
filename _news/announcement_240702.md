@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented my work on multilingual AI safety at [London Data Week](https://lu.ma/fl2t9xms).
+🎙️ Presented my work on multilingual AI safety at [London Data Week](https://lu.ma/fl2t9xms).
