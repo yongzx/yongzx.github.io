@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Ph.D. student @ <a href='https://cs.brown.edu/'>Brown University</a><br>Research Scientist Intern @ <a href='https://ai.meta.com/'>Meta AI (FAIR)</a>
+subtitle: <span style='color:grey'>Computer Science Ph.D. student @ <a href='https://cs.brown.edu/' style='color:#222222'>Brown University</a><br>Research Scientist Intern @ <a href='https://ai.meta.com/' style='color:#222222'>Meta AI (FAIR)</a>, Collaborator @ <a href='https://cohere.com/research' style='color:#222222'>Cohere For AI</a></span>
 
 profile:
   align: right
