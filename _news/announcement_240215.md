@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🔥 [Aya](https://cohere.com/research/aya) model and dataset papers are released! I was one of the Aya Grand Finale speakers, presenting our multilingual safety work in the [Aya model paper](https://arxiv.org/abs/2402.07827).
+🔥 **[Aya](https://cohere.com/research/aya)** model and dataset papers are released (and accepted to ACL'24)! I was one of the Aya Grand Finale speakers, presenting our multilingual safety work in the [Aya model paper](https://arxiv.org/abs/2402.07827). 
