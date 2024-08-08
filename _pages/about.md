@@ -15,13 +15,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by <span style="color: black !important; ">[Prof. Stephen Bach](https://cs.brown.edu/people/sbach/)</span>. I occasionally blog on [Substack](https://newsletter.yongzx.io/). I like collaborations, and you can reach me via `contact [dot] yong @ brown [dot] edu`.
+I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by <span style="color: black !important; ">[Prof. Stephen Bach](https://cs.brown.edu/people/sbach/)</span>. I occasionally blog on [Substack](https://newsletter.yongzx.io/).
 
 **Industry Experience:** Currently, I am a research scientist intern at Meta AI (FAIR) under the supervision of [Jean Maillard](https://maillard.it/), working on multimodal safety and robustness research. Previously, I worked on multilingual safety at Cohere For AI [(Aya)](https://cohere.com/research/aya) and low-resource language adapation at [BigScience](https://bigscience.huggingface.co/). 
 
-**Research Interests:** I currently focus on **multilingual safety** of LLMs. I have been working along these following directions:
+**Research Interests:** I think a lot about how to ensure AI safety while making it accessible to everyone. So far, I work along these directions:
 1. ***multilingual safety*** – My [discovery that GPT-4 can be jailbroken by low-resource languages](https://arxiv.org/abs/2310.02446) highlights the need for multilingual red-teaming. I also study how safety knowledge can transfer cross-lingually using mechanistic tools (e.g., [detoxification](https://arxiv.org/abs/2406.16235)). In industry, I also work/collaborate on multilingual Responsible AI research at Meta AI and Cohere For AI.
 
 2. ***building open-source multilingual LLMs*** – I have been a major contributor to the open-source multilingual LLMs ecosystem. For instance, I served as [Aya Malay language ambassador](https://cohere.com/research/aya-contributors-test) in addition to [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models at [Cohere For AI](https://cohere.com/research). I also contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786) at [BigScience](https://bigscience.huggingface.co/). In addition, I led the research for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535) at BigScience.
 
 3. ***enabling AI to serve underrepresented populations*** – Frontier AI these days mainly cater to first-class citizen languages. To bridge the language gap in AI, I worked on [language adaptation of LLMs to low-resource languages](https://arxiv.org/abs/2212.09535). I also dedicate NLP efforts for *South-East-Asian (SEA) languages*. I helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118) and evaluate how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
+
+I love collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`
