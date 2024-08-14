@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by <span style="color: black !important; ">[Prof. Stephen Bach](https://cs.brown.edu/people/sbach/)</span>. I work on **safe and inclusive AI**. 
+I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by <span style="color: black !important; ">[Prof. Stephen Bach](https://cs.brown.edu/people/sbach/)</span>. I work on making AI **safe and inclusive**. 
 
 **Industry Experience:** Currently, I am a research scientist intern at Meta AI (FAIR) under the supervision of [Jean Maillard](https://maillard.it/), working on multimodal safety and robustness research. Previously, I worked on multilingual safety at Cohere For AI [(Aya)](https://cohere.com/research/aya) and low-resource language adapation at [BigScience](https://bigscience.huggingface.co/). 
 
