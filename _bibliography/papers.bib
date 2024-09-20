@@ -2,7 +2,7 @@
 @article{li2024preference,
   title={Preference Tuning For Toxicity Mitigation Generalizes Across Languages},
   author={Li*, Xiaochen and Yong*, Zheng-Xin and Bach, Stephen H},
-  journal={arXiv},
+  journal={EMNLP Findings},
   year={2024},
   pdf={https://arxiv.org/pdf/2406.16235},
   code={https://github.com/BatsResearch/cross-lingual-detox},
@@ -13,7 +13,7 @@
 @article{lovenia2024seacrowd,
   title={SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages},
   author={Holy Lovenia and Rahmad Mahendra and Salsabil Maulana Akbar and Lester James V. Miranda and Jennifer Santoso and Elyanah Aco and Akhdan Fadhilah and Jonibek Mansurov and Joseph Marvin Imperial and Onno P. Kampman and Joel Ruben Antony Moniz and Muhammad Ravi Shulthan Habibi and Frederikus Hudi and Railey Montalan and Ryan Ignatius and Joanito Agili Lopo and William Nixon and Börje F. Karlsson and James Jaya and Ryandito Diandaru and Yuze Gao and Patrick Amadeus and Bin Wang and Jan Christian Blaise Cruz and Chenxi Whitehouse and Ivan Halim Parmonangan and Maria Khelli and Wenyu Zhang and Lucky Susanto and Reynard Adha Ryanda and Sonny Lazuardi Hermawan and Dan John Velasco and Muhammad Dehan Al Kautsar and Willy Fitra Hendria and Yasmin Moslem and Noah Flynn and Muhammad Farid Adilazuarda and Haochen Li and Johanes Lee and R. Damanhuri and Shuo Sun and Muhammad Reza Qorib and Amirbek Djanibekov and Wei Qi Leong and Quyet V. Do and Niklas Muennighoff and Tanrada Pansuwan and Ilham Firdausi Putra and Yan Xu and Ngee Chia Tai and Ayu Purwarianti and Sebastian Ruder and William Tjhi and Peerat Limkonchotiwat and Alham Fikri Aji and Sedrick Keh and Genta Indra Winata and Ruochen Zhang and Fajri Koto and Zheng-Xin Yong and Samuel Cahyawijaya},
-  journal={arXiv},
+  journal={EMNLP},
   year={2024},
   pdf={https://arxiv.org/pdf/2406.10118},
   abstract="Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, we introduce SEACrowd, a collaborative initiative that consolidates a comprehensive resource hub that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in SEA.",
@@ -31,26 +31,12 @@
   website={https://cvqa-benchmark.org/},
 }
 
-@article{longpre2024safe,
-  title={A safe harbor for ai evaluation and red teaming},
-  author={Shayne Longpre and Sayash Kapoor and Kevin Klyman and Ashwin Ramaswami and Rishi Bommasani and Borhane Blili-Hamelin and Yangsibo Huang and Aviya Skowron and Zheng-Xin Yong and Suhas Kotha and Yi Zeng and Weiyan Shi and Xianjun Yang and Reid Southen and Alexander Robey and Patrick Chao and Diyi Yang and Ruoxi Jia and Daniel Kang and Sandy Pentland and Arvind Narayanan and Percy Liang and Peter Henderson},
-  journal={ICML},
-  year={2024},
-  abstract={Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.},
-  pdf={https://arxiv.org/pdf/2403.04893},
-  media1={VentureBeat},
-  media1url={https://venturebeat.com/ai/experts-call-for-legal-safe-harbor-so-researchers-journalists-and-artists-can-evaluate-ai-tools/},
-  media2={Federation of American Scientists},
-  media2url={https://fas.org/publication/safe-harbor-for-ai-researchers/},
-  media3={Knight First Amendment Institute},
-  media3url={https://knightcolumbia.org/blog/a-safe-harbor-for-ai-evaluation-and-red-teaming},
-}
-
 @article{yong2024lexc,
   title={LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons},
   author={Yong, Zheng-Xin and Menghini, Cristina and Bach, Stephen H},
-  journal={arXiv},
+  journal={EMNLP Findings},
   year={2024},
+  selected={true},
   pdf={https://arxiv.org/pdf/2402.14086},
   abstract="Data scarcity in low-resource languages can be addressed with word-to-word translations from labeled task data in high-resource languages using bilingual lexicons. However, bilingual lexicons often have limited lexical overlap with task data, which results in poor translation coverage and lexicon utilization. We propose lexicon-conditioned data generation (LexC-Gen), a method that generates low-resource-language classification task data at scale. Specifically, LexC-Gen first uses high-resource-language words from bilingual lexicons to generate lexicon-compatible task data, and then it translates them into low-resource languages with bilingual lexicons via word translation. Across 17 extremely low-resource languages, LexC-Gen generated data is competitive with expert-translated gold data, and yields on average 5.6 and 8.9 points improvement over existing lexicon-based word translation methods on sentiment analysis and topic classification tasks respectively. We show that conditioning on bilingual lexicons is the key component of LexC-Gen. LexC-Gen is also practical -- it only needs a single GPU to generate data at scale. It works well with open-access LLMs, and its cost is one-fifth of the cost of GPT4-based multilingual data generation.",
   code={https://github.com/BatsResearch/LexC-Gen},
@@ -72,6 +58,21 @@
   media2url={https://www.theglobeandmail.com/business/article-ai-chatbots-fall-short-in-dozens-of-languages-a-non-profit-project},
   media3={SiliconANGLE},
   media3url={https://siliconangle.com/2024/02/13/cohere-ai-unveils-aya-multilingual-open-source-ai-101-languages/},
+}
+
+@article{longpre2024safe,
+  title={A safe harbor for ai evaluation and red teaming},
+  author={Shayne Longpre and Sayash Kapoor and Kevin Klyman and Ashwin Ramaswami and Rishi Bommasani and Borhane Blili-Hamelin and Yangsibo Huang and Aviya Skowron and Zheng-Xin Yong and Suhas Kotha and Yi Zeng and Weiyan Shi and Xianjun Yang and Reid Southen and Alexander Robey and Patrick Chao and Diyi Yang and Ruoxi Jia and Daniel Kang and Sandy Pentland and Arvind Narayanan and Percy Liang and Peter Henderson},
+  journal={ICML},
+  year={2024},
+  abstract={Independent evaluation and red teaming are critical for identifying the risks posed by generative AI systems. However, the terms of service and enforcement strategies used by prominent AI companies to deter model misuse have disincentives on good faith safety evaluations. This causes some researchers to fear that conducting such research or releasing their findings will result in account suspensions or legal reprisal. Although some companies offer researcher access programs, they are an inadequate substitute for independent research access, as they have limited community representation, receive inadequate funding, and lack independence from corporate incentives. We propose that major AI developers commit to providing a legal and technical safe harbor, indemnifying public interest safety research and protecting it from the threat of account suspensions or legal reprisal. These proposals emerged from our collective experience conducting safety, privacy, and trustworthiness research on generative AI systems, where norms and incentives could be better aligned with public interests, without exacerbating model misuse. We believe these commitments are a necessary step towards more inclusive and unimpeded community efforts to tackle the risks of generative AI.},
+  pdf={https://arxiv.org/pdf/2403.04893},
+  media1={VentureBeat},
+  media1url={https://venturebeat.com/ai/experts-call-for-legal-safe-harbor-so-researchers-journalists-and-artists-can-evaluate-ai-tools/},
+  media2={Federation of American Scientists},
+  media2url={https://fas.org/publication/safe-harbor-for-ai-researchers/},
+  media3={Knight First Amendment Institute},
+  media3url={https://knightcolumbia.org/blog/a-safe-harbor-for-ai-evaluation-and-red-teaming},
 }
 
 @article{le2023bloom,
@@ -173,7 +174,6 @@ media3url={https://www.zdnet.com/article/the-safety-of-openais-gpt-4-is-lost-in-
     media1={WIRED},
     media1url={https://www.wired.com/story/chatgpt-non-english-languages-ai-revolution/},
     code={https://github.com/Southeast-Asia-NLP/LLM-Code-Mixing},
-    selected={true},
 }
 
 @inproceedings{winata-etal-2023-decades,
