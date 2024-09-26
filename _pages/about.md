@@ -26,12 +26,13 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University,
 
 2. **serving AI to underrepresented communities** through model-centric and data-centric solutions.
   - I researched how to finetune multilingual LLMs, such as [BLOOM+1 (ACL 2023)](https://arxiv.org/abs/2212.09535), to adapt to low-resource languages unseen during pretraining.
-  - I proposed novel methods to generate synthetic training data for underrepresented languages. Our [LexC-Gen (Findings of EMNLP 2024)](https://arxiv.org/abs/2402.14086) can generate labeled data that match manually collected data *performance-wise for the very first time* in extremely low-resource Indonesian and African languages.
-  - As a Malaysian, I contribute to NLP for Southeast Asian languages. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/), helped curate [SEACrowd data hub (EMNLP 2024)](https://arxiv.org/abs/2406.10118), and studied how well LLMs handle common SEA linguistic phenomena such as [code-switching (EMNLP 2023 CALCS Workshop)](https://arxiv.org/abs/2303.13592).
+  - I proposed novel methods to generate synthetic training data for underrepresented languages. Our [LexC-Gen (Findings of EMNLP 2024)](https://arxiv.org/abs/2402.14086) can generate labeled data that match manually collected data *performance-wise for the very first time* in low-resource Indonesian and African languages.
 
 3. **world-wide open-source collaborations for frontier multilingual LLMs**.
   - **[Cohere For AI](https://cohere.com/research/aya)**: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I also helped [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models.
   - **[BigScience](https://bigscience.huggingface.co/)**: I contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535).
+
+As a Malaysian, I also contributed to NLP for Southeast Asian (SEA) languages outside my PhD working hours. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/), helped curate [SEACrowd data hub (EMNLP 2024)](https://arxiv.org/abs/2406.10118), and studied how well LLMs are adapted to SEA culture such as [code-switching (EMNLP 2023 CALCS Workshop)](https://arxiv.org/abs/2303.13592) and [cultural understanding (NeurIPS 2024)](https://arxiv.org/abs/2406.05967).
 
 **Other Misc Stuff:**
 - I love research collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. 
