@@ -37,3 +37,5 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University,
 **Other Misc Stuff:**
 - I love research collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. 
 - As a Malaysian, I contribute to NLP development in Southeast Asia region. I've helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118) and evaluate how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
+- I love dancing, and I usually check out the dance scene when I attend conferences. <br>I'd consider myself a good salsa dancer, and I'm currently learning modern bachata. I also dance Lindy Hop, Argentine Tango, and (very little bit of) K-pop.
+- Went to [Minerva University](https://www.minerva.edu/) so I had the opportunity to live in six different coutries (USA, UK, South Korea, India, Argentina, and Germany) during my undergraduate years.
