@@ -98,7 +98,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.booktitle}}</em> {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
     {% else %}
@@ -127,13 +127,11 @@
     {% endif %}
 
     {% if entry.media1 %}
-      <div class="title">
-        <span style="font-weight:normal">
+      <div>
           Also featured in: 
-        </span>
           <a href="{{ entry.media1url }}">{{entry.media1}}</a>
           {% if entry.media2 %}, <a href="{{ entry.media2url }}">{{entry.media2}}</a>{% endif %}
-          {% if entry.media3 %}, <a href="{{ entry.media3url }}">{{entry.media3}}</a> and many more{% endif %}
+          {% if entry.media3 %}, <a href="{{ entry.media3url }}">{{entry.media3}}</a>, etc.{% endif %}
       </div>
     {% endif %}
 

@@ -19,23 +19,21 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University,
 
 **I work on making multilingual LLMs safe and inclusive.** In particular, I am interested in creating intelligent systems that can serve global users in a safe and responsible manner, covering up to 7000+ languages. So far, I work on these following directions:
 
-1. **ensuring safe multilingual LLMs**
-  - ***cross-lingual jailbreaking***: I discovered that [GPT-4 can be jailbroken when malicious instructions are translated into low-resource languages](https://arxiv.org/abs/2310.02446). <br>Our work won the *best paper award* in NeurIPS 2023 Socially Responsible Language Modeling workshop and was cited in the [International Scientific Report on the Safety of Advanced AI](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai) by the UK Government to highlight the need for multilingual red-teaming.
-  - ***multilingual red-teaming***: I part of the safety red-teaming team for [Aya-101](https://arxiv.org/abs/2402.07827) (state-of-the-art LLM that follows instructions in 101 languages) released by Cohere For AI.
-  - ***cross-lingual safety transfer***: I researched how safety knowledge, such as [detoxification](https://arxiv.org/abs/2406.16235) and harmful-finetuning, can transfer across languages in LLMs.
+1. **ensuring safe multilingual LLMs** through cross-lingual jailbreaking, red-teaming and mechanistic interpretability.
+  - I've pioneered [translation-based jailbreaking (NeurIPS 2023 Socially Responsible Language Modeling Workshop, &#11089;Best Paper Award)](https://arxiv.org/abs/2310.02446) by discovering that GPT-4 can be jailbroken when malicious instructions are translated into low-resource languages. Our work was cited in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai) by the UK Government to highlight the need for multilingual red-teaming.
+  - I collaborated with Cohere For AI to perform [multilingual safety red-teaming team for Aya-101 (ACL 2024, &#11089;Best Paper Award)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art LLM that follows instructions in 101 languages.
+  - I researched cross-lingual transfer of safety knowledge, such as [toxicity (Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and harmful-finetuning (coming soon).
 
-
-2. **serving thousands of underrepresented languages**
-  - ***[BLOOM+1](https://arxiv.org/abs/2212.09535)***: language adaptation research that studies how to adapt LLMs to low-resource languages.
-  - ***[LexC-Gen](https://arxiv.org/abs/2402.14086)***: synthetic data generation method that allows LLMs to generate training data in languages not covered by LLMs. This the *first time* where synthetic data can match manually collected data in low-resource languages.
+2. **serving AI to underrepresented communities** through model-centric and data-centric solutions.
+  - I researched how to finetune multilingual LLMs, such as [BLOOM+1 (ACL 2023)](https://arxiv.org/abs/2212.09535), to adapt to low-resource languages unseen during pretraining.
+  - I proposed novel methods to generate synthetic training data for underrepresented languages. Our [LexC-Gen (Findings of EMNLP 2024)](https://arxiv.org/abs/2402.14086) can generate labeled data that match manually collected data *performance-wise for the very first time* in extremely low-resource Indonesian and African languages.
+  - As a Malaysian, I contribute to NLP for Southeast Asian languages. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/), helped curate [SEACrowd data hub (EMNLP 2024)](https://arxiv.org/abs/2406.10118), and studied how well LLMs handle common SEA linguistic phenomena such as [code-switching (EMNLP 2023 CALCS Workshop)](https://arxiv.org/abs/2303.13592).
 
 3. **world-wide open-source collaborations for frontier multilingual LLMs**.
-  - ***[Cohere For AI](https://cohere.com/research/aya)***: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I also helped [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models.
-  - ***[BigScience](https://bigscience.huggingface.co/)***: I contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535).
-
-As a Malaysian, I also contribute to open-source NLP development in Southeast Asia region. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/) on such topic, helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118), and studied how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
+  - **[Cohere For AI](https://cohere.com/research/aya)**: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I also helped [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models.
+  - **[BigScience](https://bigscience.huggingface.co/)**: I contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535).
 
 **Other Misc Stuff:**
 - I love research collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. 
-- I love dancing, and I usually check out the dance scene when I attend conferences. <br>I'd consider myself a good salsa dancer, and I'm currently learning modern bachata. I also dance Lindy Hop, Argentine Tango, and (very little bit of) K-pop.
-- Went to [Minerva University](https://www.minerva.edu/) so I had the opportunity to live in six different coutries (USA, UK, South Korea, India, Argentina, and Germany) during my undergraduate years.
+- I love partner dancing, and I usually check out the dance scenes in the city when I travel to conferences. <br>I'd consider myself a good salsa dancer, and I'm currently learning modern bachata. I also dance Lindy Hop, Argentine Tango, and (very little bit of) K-pop.
+- I went to [Minerva University](https://www.minerva.edu/) during undergrad so I had the opportunity to travel and live in six different cities around the world: San Francisco, Seoul, Hyderabad, Berlin Buenos Aires and London. 

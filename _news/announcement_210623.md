@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓 Started PhD at Brown University.
+Started PhD at Brown University.
