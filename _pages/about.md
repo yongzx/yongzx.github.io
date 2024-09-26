@@ -33,9 +33,9 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University,
   - ***[Cohere For AI](https://cohere.com/research/aya)***: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I also helped [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models.
   - ***[BigScience](https://bigscience.huggingface.co/)***: I contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535).
 
+As a Malaysian, I also contribute to open-source NLP development in Southeast Asia region. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/) on such topic, helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118), and studied how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
 
 **Other Misc Stuff:**
 - I love research collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. 
-- As a Malaysian, I contribute to NLP development in Southeast Asia region. I've helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118) and evaluate how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
 - I love dancing, and I usually check out the dance scene when I attend conferences. <br>I'd consider myself a good salsa dancer, and I'm currently learning modern bachata. I also dance Lindy Hop, Argentine Tango, and (very little bit of) K-pop.
 - Went to [Minerva University](https://www.minerva.edu/) so I had the opportunity to live in six different coutries (USA, UK, South Korea, India, Argentina, and Germany) during my undergraduate years.
