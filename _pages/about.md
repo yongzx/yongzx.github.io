@@ -15,15 +15,25 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a rising fourth-year Ph.D. student in Computer Science at Brown University. I am fortunate to be advised by <span style="color: black !important; ">[Prof. Stephen Bach](https://cs.brown.edu/people/sbach/)</span>. I work on making AI **safe and inclusive**. 
+I am a rising fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://cs.brown.edu/people/sbach/). I'm fortunate to have collaborated with [Cohere For AI](https://cohere.com/research) and [Meta AI (FAIR)](https://ai.meta.com/).
 
-**Industry Experience:** Currently, I am a research scientist intern at Meta AI (FAIR) under the supervision of [Jean Maillard](https://maillard.it/) and [Michael Auli](https://michaelauli.github.io/), working on Responsible AI research for multilingual speech models. Previously, I worked on multilingual safety at Cohere For AI [(Aya)](https://cohere.com/research/aya) and low-resource language adapation at [BigScience](https://bigscience.huggingface.co/). 
+**I work on making multilingual LLMs safe and inclusive.** In particular, I am interested in creating intelligent systems that can serve global users in a safe and responsible manner, covering up to 7000+ languages. So far, I work on these following directions:
 
-**Research Interests:** I think broadly about how we can create intelligent systems that are accessible to global users without causing harm. So far, I work along these directions:
-1. ***multilingual safety*** – My [discovery that GPT-4 can be jailbroken by low-resource languages](https://arxiv.org/abs/2310.02446) highlights the need for multilingual red-teaming. I also study how safety knowledge (e.g., [detoxification](https://arxiv.org/abs/2406.16235)) can transfer cross-lingually. In addition, I collaborate with frontier labs. I worked on [multilingual red-teaming for Aya-101](https://arxiv.org/abs/2402.07827) at Cohere For AI, and now I work on safety for multilingual speech models at Meta AI.
+1. **ensuring safe multilingual LLMs**
+  - ***cross-lingual jailbreaking***: I discovered that [GPT-4 can be jailbroken when malicious instructions are translated into low-resource languages](https://arxiv.org/abs/2310.02446). <br>Our work won the *best paper award* in NeurIPS 2023 Socially Responsible Language Modeling workshop and was cited in the [International Scientific Report on the Safety of Advanced AI](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai) by the UK Government to highlight the need for multilingual red-teaming.
+  - ***multilingual red-teaming***: I part of the safety red-teaming team for [Aya-101](https://arxiv.org/abs/2402.07827) (state-of-the-art LLM that follows instructions in 101 languages) released by Cohere For AI.
+  - ***cross-lingual safety transfer***: I researched how safety knowledge, such as [detoxification](https://arxiv.org/abs/2406.16235) and harmful-finetuning, can transfer across languages in LLMs.
 
-2. ***building open-source multilingual LLMs*** – I have been a major contributor to the open-source multilingual LLMs ecosystem. For instance, I served as [Aya Malay language ambassador](https://cohere.com/research/aya-contributors-test) in addition to [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models at [Cohere For AI](https://cohere.com/research). I also contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786) at [BigScience](https://bigscience.huggingface.co/). In addition, I led the research for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535) at BigScience.
 
-3. ***enabling AI to serve underrepresented populations*** – To bridge the language gap in AI, I work on model-centric ([language adaptation](https://arxiv.org/abs/2212.09535)) and data-centric ([synthetic data generation](https://arxiv.org/abs/2402.14086)) solutions. My [most recent work](https://arxiv.org/abs/2402.14086) uses lexicons to generate synthetic data that can match against human-collected data *for the very first time in low-resource languages*. I also dedicate NLP efforts for *South-East-Asian (SEA) languages*. I helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118) and evaluate how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).
+2. **serving thousands of underrepresented languages**
+  - ***[BLOOM+1](https://arxiv.org/abs/2212.09535)***: language adaptation research that studies how to adapt LLMs to low-resource languages.
+  - ***[LexC-Gen](https://arxiv.org/abs/2402.14086)***: synthetic data generation method that allows LLMs to generate training data in languages not covered by LLMs. This the *first time* where synthetic data can match manually collected data in low-resource languages.
 
-I love collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. I also occasionally write on my [blog](https://yongzx.github.io/blog).
+3. **world-wide open-source collaborations for frontier multilingual LLMs**.
+  - ***[Cohere For AI](https://cohere.com/research/aya)***: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I also helped [safety red-teaming](https://arxiv.org/abs/2402.07827) for Aya models.
+  - ***[BigScience](https://bigscience.huggingface.co/)***: I contributed to [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for [adapting BLOOM to unseen languages](https://arxiv.org/abs/2212.09535).
+
+
+**Other Misc Stuff:**
+- I love research collaborations. If you want to chat or collaborate, you can reach me here: `contact [dot] yong @ brown [dot] edu`. 
+- As a Malaysian, I contribute to NLP development in Southeast Asia region. I've helped curate [SEACrowd data hub](https://arxiv.org/abs/2406.10118) and evaluate how well LLMs handle common SEA linguistic phenomena such as [code-switching](https://arxiv.org/abs/2303.13592).

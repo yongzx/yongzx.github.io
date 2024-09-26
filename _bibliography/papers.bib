@@ -1,4 +1,15 @@
 
+@article{yong2024lexc,
+  title={LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons},
+  author={Yong, Zheng-Xin and Menghini, Cristina and Bach, Stephen H},
+  journal={EMNLP Findings},
+  year={2024},
+  selected={true},
+  pdf={https://arxiv.org/pdf/2402.14086},
+  abstract="Data scarcity in low-resource languages can be addressed with word-to-word translations from labeled task data in high-resource languages using bilingual lexicons. However, bilingual lexicons often have limited lexical overlap with task data, which results in poor translation coverage and lexicon utilization. We propose lexicon-conditioned data generation (LexC-Gen), a method that generates low-resource-language classification task data at scale. Specifically, LexC-Gen first uses high-resource-language words from bilingual lexicons to generate lexicon-compatible task data, and then it translates them into low-resource languages with bilingual lexicons via word translation. Across 17 extremely low-resource languages, LexC-Gen generated data is competitive with expert-translated gold data, and yields on average 5.6 and 8.9 points improvement over existing lexicon-based word translation methods on sentiment analysis and topic classification tasks respectively. We show that conditioning on bilingual lexicons is the key component of LexC-Gen. LexC-Gen is also practical -- it only needs a single GPU to generate data at scale. It works well with open-access LLMs, and its cost is one-fifth of the cost of GPT4-based multilingual data generation.",
+  code={https://github.com/BatsResearch/LexC-Gen},
+}
+
 @article{li2024preference,
   title={Preference Tuning For Toxicity Mitigation Generalizes Across Languages},
   author={Li*, Xiaochen and Yong*, Zheng-Xin and Bach, Stephen H},
@@ -24,22 +35,12 @@
 @article{romero2024cvqa,
   title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
   author={David Romero and Chenyang Lyu and Haryo Akbarianto Wibowo and Teresa Lynn and Injy Hamed and Aditya Nanda Kishore and Aishik Mandal and Alina Dragonetti and Artem Abzaliev and Atnafu Lambebo Tonja and Bontu Fufa Balcha and Chenxi Whitehouse and Christian Salamea and Dan John Velasco and David Ifeoluwa Adelani and David Le Meur and Emilio Villa-Cueva and Fajri Koto and Fauzan Farooqui and Frederico Belcavello and Ganzorig Batnasan and Gisela Vallejo and Grainne Caulfield and Guido Ivetta and Haiyue Song and Henok Biadglign Ademtew and Hernán Maina and Holy Lovenia and Israel Abebe Azime and Jan Christian Blaise Cruz and Jay Gala and Jiahui Geng and Jesus-German Ortiz-Barajas and Jinheon Baek and Jocelyn Dunstan and Laura Alonso Alemany and Kumaranage Ravindu Yasas Nagasinghe and Luciana Benotti and Luis Fernando D'Haro and Marcelo Viridiano and Marcos Estecha-Garitagoitia and Maria Camila Buitrago Cabrera and Mario Rodríguez-Cantelar and Mélanie Jouitteau and Mihail Mihaylov and Mohamed Fazli Mohamed Imam and Muhammad Farid Adilazuarda and Munkhjargal Gochoo and Munkh-Erdene Otgonbold and Naome Etori and Olivier Niyomugisha and Paula Mónica Silva and Pranjal Chitale and Raj Dabre and Rendi Chevi and Ruochen Zhang and Ryandito Diandaru and Samuel Cahyawijaya and Santiago Góngora and Soyeong Jeong and Sukannya Purkayastha and Tatsuki Kuribayashi and Thanmay Jayakumar and Tiago Timponi Torrent and Toqeer Ehsan and Vladimir Araujo and Yova Kementchedjhieva and Zara Burzo and Zheng Wei Lim and Zheng-Xin Yong and Oana Ignat and Joan Nwatu and Rada Mihalcea and Thamar Solorio and Alham Fikri Aji},
-  journal={arXiv},
+  journal={NeurIPS 2024 Datasets and Benchmarks},
   year={2024},
   pdf={https://arxiv.org/pdf/2406.05967},
   abstract="Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field.",
   website={https://cvqa-benchmark.org/},
-}
-
-@article{yong2024lexc,
-  title={LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons},
-  author={Yong, Zheng-Xin and Menghini, Cristina and Bach, Stephen H},
-  journal={EMNLP Findings},
-  year={2024},
-  selected={true},
-  pdf={https://arxiv.org/pdf/2402.14086},
-  abstract="Data scarcity in low-resource languages can be addressed with word-to-word translations from labeled task data in high-resource languages using bilingual lexicons. However, bilingual lexicons often have limited lexical overlap with task data, which results in poor translation coverage and lexicon utilization. We propose lexicon-conditioned data generation (LexC-Gen), a method that generates low-resource-language classification task data at scale. Specifically, LexC-Gen first uses high-resource-language words from bilingual lexicons to generate lexicon-compatible task data, and then it translates them into low-resource languages with bilingual lexicons via word translation. Across 17 extremely low-resource languages, LexC-Gen generated data is competitive with expert-translated gold data, and yields on average 5.6 and 8.9 points improvement over existing lexicon-based word translation methods on sentiment analysis and topic classification tasks respectively. We show that conditioning on bilingual lexicons is the key component of LexC-Gen. LexC-Gen is also practical -- it only needs a single GPU to generate data at scale. It works well with open-access LLMs, and its cost is one-fifth of the cost of GPT4-based multilingual data generation.",
-  code={https://github.com/BatsResearch/LexC-Gen},
+  award={Oral},
 }
 
 @article{ustun2024aya,
@@ -378,17 +379,4 @@ award={Spotlight Presentation},
 pdf="https://aclanthology.org/2020.lrec-1.431.pdf",
 code="https://github.com/yongzx/SDEC-AD",
 abstract = "Although FrameNet is recognized as one of the most fine-grained lexical databases, its coverage of lexical units is still limited. To tackle this issue, we propose a two-step frame induction process: for a set of lexical units not yet present in Berkeley FrameNet data release 1.7, first remove those that cannot fit into any existing semantic frame in FrameNet; then, assign the remaining lexical units to their correct frames. We also present the Semi-supervised Deep Embedded Clustering with Anomaly Detection (SDEC-AD) model—an algorithm that maps high-dimensional contextualized vector representations of lexical units to a low-dimensional latent space for better frame prediction and uses reconstruction error to identify lexical units that cannot evoke frames in FrameNet. SDEC-AD outperforms the state-of-the-art methods in both steps of the frame induction process. Empirical results also show that definitions provide contextual information for representing and characterizing the frame membership of lexical units.",
-}
-
-@article{tan2016using,
-  title={Using a chemiresistor-based alkane sensor to distinguish exhaled breaths of lung cancer patients from subjects with no lung cancer},
-  author={Tan, Jiunn-Liang and Yong, Zheng-Xin and Liam, Chong-Kin},
-  journal={Journal of Thoracic Disease},
-  volume={8},
-  number={10},
-  pages={2772},
-  year={2016},
-  publisher={AME Publications},
-pdf="https://jtd.amegroups.org/article/view/9989/pdf",
-abstract = "Breath alkanes are reported to be able to discriminate lung cancer patients from healthy people. A simple chemiresistor-based sensor was designed to respond to alkanes by a change in resistance measured by a digital multimeter connected to the sensor. In preclinical experiments, the sensor response was found to have a strong positive linear relationship with alkane compounds and not responsive to water. This study aimed to determine the ability of the alkane sensor to distinguish the exhaled breaths of lung cancer patients from that of chronic obstructive pulmonary disease (COPD) patients and control subjects without lung cancer. In this cross-sectional study, 12 treatment-naive patients with lung cancer, 12 ex- or current smokers with COPD and 13 never-smokers without lung disease were asked to exhale through a drinking straw into a prototype breath-in apparatus made from an empty 125 mL Vitagen® bottle with the chemiresistor sensor attached at its inside bottom to measure the sensor peak output (percentage change of baseline resistance measured before exhalation to peak resistance) and the time taken for the baseline resistance to reach peak resistance. Analysis of multivariate variance and post-hoc Tukey test revealed that the peak output and the time to peak values for the lung cancer patients were statistically different from that for both the COPD patients and the controls without lung disease, Pillai’s Trace =0.393, F=3.909, df = (4, 64), P=0.007. A 2.20% sensor peak output and a 90-s time to peak gave 83.3% sensitivity and 88% specificity in diagnosing lung cancer. Tobacco smoking did not affect the diagnostic accuracy of the sensor. The alkane sensor could discriminate patients with lung cancer from COPD patients and people without lung disease. Its potential utility as a simple, cheap and non-invasive test for early lung cancer detection needs further studies.",
 }

@@ -48,6 +48,8 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <hr>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -56,6 +58,8 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <hr>
+    
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
