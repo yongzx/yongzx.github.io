@@ -30,7 +30,6 @@ I also dedicate efforts to **create intelligent systems that overcome language b
   - **[Cohere For AI](https://cohere.com/research/aya)**: I served as [language ambassador](https://cohere.com/research/aya-contributors-test) who coordinate the data collection efforts for Malay language in [Aya dataset](https://arxiv.org/abs/2402.06619). In addition, I was part of safety red-teaming team for Aya models.
   - **[BigScience](https://bigscience.huggingface.co/)**: I contributed to LLMs such as [BLOOM](https://arxiv.org/abs/2211.05100), [T0](https://arxiv.org/abs/2110.08207) and [mT0/BLOOMZ](https://arxiv.org/abs/2211.01786). In addition, I led the research efforts for adapting BLOOM to unseen languages.
   
-
 As a Malaysian, I also contributed to **NLP for Southeast Asian (SEA) languages** outside my PhD. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/), helped curate SEACrowd data hub [(EMNLP 2024)](https://arxiv.org/abs/2406.10118), and studied how well LLMs can handle SEA linguistic phenomenon, such as code-switching [(EMNLP 2023 CALCS Workshop)](https://arxiv.org/abs/2303.13592), and understand culture in SEA region [(NeurIPS 2024)](https://arxiv.org/abs/2406.05967).
 
 **Other Misc Stuff:**
