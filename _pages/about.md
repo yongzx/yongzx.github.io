@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span style='color:grey'>Computer Science Ph.D. student @ <a href='https://cs.brown.edu/' style='color:#222222'>Brown University</a><br>Research Scientist Intern @ <a href='https://ai.meta.com/' style='color:#222222'>Meta AI (FAIR)</a>, Collaborator @ <a href='https://cohere.com/research' style='color:#222222'>Cohere For AI</a></span>
+subtitle: <span style='color:grey'>Computer Science Ph.D. student @ Brown University<br>Research Scientist Intern @ <a href='https://ai.meta.com/' style='color:#222222'>Meta AI (FAIR)</a>, Collaborator @ <a href='https://cohere.com/research' style='color:#222222'>Cohere For AI</a></span>
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a rising fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://cs.brown.edu/people/sbach/). I'm fortunate to have collaborated with amazing researchers at [Cohere For AI](https://cohere.com/research) and at [Meta AI (FAIR and GenAI Trust Team)](https://ai.meta.com/).
+I am a rising fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I'm fortunate to have collaborated with amazing researchers at [Cohere For AI](https://cohere.com/research) and at [Meta AI (FAIR and GenAI Trust Team)](https://ai.meta.com/).
 
 **Lately, I work on making multilingual LLMs safe.** 
 - I was the first to reveal cross-lingual safety vulnerability [(NeurIPS 2023 Socially Responsible Language Modeling Workshop, &#11089;Best Paper Award)](https://arxiv.org/abs/2310.02446) by discovering that GPT-4 can be jailbroken when malicious instructions are translated into low-resource languages. Our work was cited by the UK Government and AI Safety Institute in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai) to highlight the need for multilingual red-teaming.
