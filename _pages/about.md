@@ -33,5 +33,6 @@ I also dedicate efforts to **create intelligent systems that overcome language b
 As a Malaysian, I also contributed to **NLP for Southeast Asian (SEA) languages** outside my PhD. I've hosted [*ACL tutorials](https://aclanthology.org/2023.ijcnlp-tutorials.2/), helped curate SEACrowd data hub [(EMNLP 2024)](https://arxiv.org/abs/2406.10118), and studied how well LLMs can handle SEA linguistic phenomenon, such as code-switching [(EMNLP 2023 CALCS Workshop)](https://arxiv.org/abs/2303.13592), and understand culture in SEA region [(NeurIPS 2024)](https://arxiv.org/abs/2406.05967).
 
 **Other Misc Stuff:**
-- I enjoy dancing salsa and bachata. I also dance a bit of Lindy Hop, Argentine Tango and K-pop. <br>I usually check out the dance scenes in the city when I travel to conferences – if you see this and want to go dance together, hmu.
+- If you want to chat or collaborate on any of the research directions above (or just talk about graduate schools), feel free to send an email to me: `contact [dot] yong @ brown [dot] edu`.
+- My passion hobby is dancing, especially salsa and bachata. I also dance a bit of Lindy Hop, Argentine Tango and K-pop. <br>I usually check out the dance scenes in the city when I travel to conferences ––– if you also enjoy dancing, hmu we can check them out together.
 - I went to [Minerva University](https://www.minerva.edu/) during undergrad so I had the opportunity to travel and live in six different cities around the world: San Francisco, Seoul, Hyderabad, Berlin Buenos Aires and London. 
