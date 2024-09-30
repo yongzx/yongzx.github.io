@@ -19,8 +19,8 @@ I am a rising fourth-year Ph.D. student in Computer Science at Brown University,
 
 **Lately, I work on making multilingual LLMs safe.** 
 - I discovered cross-lingual safety vulnerability [(NeurIPS 2023 Socially Responsible Language Modeling Workshop, &#11089;Best Paper Award)](https://arxiv.org/abs/2310.02446) through translation-based jailbreaking: malicious instructions could bypass GPT-4's safety guardrails when translated into low-resource languages. Our work was cited by the UK Government and AI Safety Institute in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai) to highlight the need for multilingual red-teaming.
-- I collaborated with Cohere For AI to perform multilingual safety red-teaming for Aya-101 [(ACL 2024, &#11089;Best Paper Award)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art LLM that follows instructions in 101 languages.
 - I researched cross-lingual transfer of safety knowledge, such as toxicity [(Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and harmful-finetuning (coming soon).
+- I collaborated with Cohere For AI to perform multilingual safety red-teaming for Aya-101 [(ACL 2024, &#11089;Best Paper Award)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art LLM that follows instructions in 101 languages.
 
 I also dedicate efforts to **create intelligent systems that overcome language barriers** and serve all users around the world, including those who speak underrepresented languages, through model-centric and data-centric solutions.
 - I researched how to finetune multilingual LLMs, such as BLOOM+1 [(ACL 2023)](https://arxiv.org/abs/2212.09535), to adapt to low-resource languages unseen during pretraining.
