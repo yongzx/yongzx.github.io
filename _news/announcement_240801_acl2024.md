@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Aya Model paper](https://arxiv.org/abs/2402.07827) received the **&#11089;Best Paper Award** at ACL 2024.
+**[Aya Model paper](https://arxiv.org/abs/2402.07827)** received the **&#11089;Best Paper Award** at ACL 2024.
