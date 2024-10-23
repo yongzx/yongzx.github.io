@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a incoming fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I'm fortunate to have collaborated with amazing researchers at [Cohere For AI](https://cohere.com/research) and at [Meta AI (FAIR and GenAI Trust Team)](https://ai.meta.com/). **Currently interning at Meta AI and will be back to Brown in Spring 2025.** 
+I am a incoming fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I'm fortunate to have collaborated with amazing researchers at [Cohere For AI](https://cohere.com/research) and at [Meta AI (FAIR and GenAI Team)](https://ai.meta.com/). **Currently interning at Meta AI and will be back to Brown in Spring 2025.** 
 
-**Lately, I focus on making multilingual LLMs safe.** I currently research cross-lingual transfer of safety knowledge, such as toxicity [(Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and harmful-finetuning (coming soon). My other notable work in AI safety includes:
+**Lately, I focus on making multilingual LLMs safe.** I study how safety knowledge transfers across languages, such as through removing toxicity [(Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and finetuning attack (coming soon). My notable work in AI safety includes:
 - I discovered cross-lingual vulnerability in LLM safety guardrails as I found ["Low-Resource Languages Jailbreak GPT-4" (NeurIPS 2023 Socially Responsible Language Modeling Workshop, &#11089;Best Paper Award)](https://arxiv.org/abs/2310.02446). This discovery catalyzed the paradigm shift towards multilingual red-teaming and was highlighted by the UK Government and AI Safety Institute in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai).
 - I collaborated with Cohere For AI to perform multilingual safety red-teaming for Aya-101 [(ACL 2024, &#11089;Best Paper Award)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art open LLM that follows instructions in 101 languages.
 
@@ -34,4 +34,4 @@ I am a incoming fourth-year Ph.D. student in Computer Science at Brown Universit
 **Other Misc Stuff:**
 - If you want to chat or collaborate on any of the research directions above (or just talk about graduate schools), feel free to send an email to me: `contact [dot] yong @ brown [dot] edu`.
 - My passion hobby is dancing, especially salsa and bachata. I also dance a bit of Lindy Hop, Argentine Tango and K-pop. <br>I usually check out the dance scenes in the city when I travel to conferences ––– if you also enjoy dancing, hmu we can check them out together.
-- I went to [Minerva University](https://www.minerva.edu/) during undergrad so I had the opportunity to travel and live in six different cities around the world: San Francisco, Seoul, Hyderabad, Berlin Buenos Aires and London. 
+- I went to [Minerva University](https://www.minerva.edu/) during undergrad so I had the opportunity to travel and live in six different cities around the world: 🇺🇸 San Francisco, 🇰🇷 Seoul, 🇮🇳 Hyderabad, 🇩🇪 Berlin, 🇦🇷 Buenos Aires and 🇬🇧 London. 
