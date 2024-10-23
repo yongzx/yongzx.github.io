@@ -17,9 +17,12 @@ social: true # includes social icons at the bottom of the page
 
 I am a incoming fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I'm fortunate to have collaborated with amazing researchers at [Cohere For AI](https://cohere.com/research) and at [Meta AI (FAIR and GenAI Team)](https://ai.meta.com/). **Currently interning at Meta AI and will be back to Brown in Spring 2025.** 
 
-**Lately, I focus on making multilingual LLMs safe.** I study how safety knowledge transfers across languages, such as through removing toxicity [(Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and finetuning attack (coming soon). My notable work in AI safety includes:
-- I discovered that [low-resource languages can jailbreak GPT-4 (&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work catalyzed the paradigm shift towards multilingual red-teaming and was highlighted by the UK Government and AI Safety Institute in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai).
-- I collaborated with Cohere For AI to perform multilingual safety red-teaming for Aya-101 [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art open LLM that follows instructions in 101 languages.
+**Lately, I focus on making multilingual LLMs safe.** You probably know me from my findings that [<span style="color:brown; font-weight:700;">low-resource languages can jailbreak GPT-4</span> (&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work catalyzed the paradigm shift towards multilingual red-teaming in industry.
+<!-- and was highlighted by the UK Government and AI Safety Institute in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai). -->
+
+My other notable work in AI safety includes:
+- I use mechanistic interpretability to study cross-lingual transfer of safety knowledge. For instance, removing toxicity from LLMs [(Findings of EMNLP 2024)](https://arxiv.org/abs/2406.16235) and finetuning attack (coming soon). 
+- I performed safety red-teaming during my collaboration with Cohere For AI for Aya-101 [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827), which is the state-of-the-art open LLM that follows instructions in 101 languages.
 
 **I also work on making foundational models overcome language barriers** so AI can serve all users around the world, including those who speak underrepresented languages. I have worked on both model-centric and data-centric solutions.
 - I researched how to finetune multilingual LLMs, such as BLOOM+1 [(ACL 2023)](https://arxiv.org/abs/2212.09535), to adapt to low-resource languages unseen during pretraining.
