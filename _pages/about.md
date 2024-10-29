@@ -25,7 +25,6 @@ My other notable contributions in AI safety includes:
 - 🔓 I have done safety red-teaming research in industry AI labs. 
   - **<span style="color:brown;">Cohere For AI</span>**: I worked on red-teaming Aya-101 [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827). 
   - **<span style="color:brown;">Meta GenAI Trust (formerly Responsible AI)</span>**: I collaborated on a project of understanding finetuning attacks on multilingual LLMs such as Llama-3.1 and QWen-2 ([preprint](https://arxiv.org/abs/2410.18210)).
-  - **<span style="color:brown;">Meta FAIR</span>**: I worked on toxicity evaluation of the Massively Multilingual Speech models (coming soon).
 
 **I also worked on making foundational models overcome language barriers** so AI can serve all users around the world, including those who speak underrepresented languages. I have worked on both model-centric and data-centric solutions. I've worked on adapting LLMs to low-resource languagesn [(ACL 2023)](https://arxiv.org/abs/2212.09535) and generating synthetic data for low-resource languages [(Findings of EMNLP 2024)](https://arxiv.org/abs/2402.14086). I have also worked on massively multilingual LLMs and speech technology at following labs/groups:
 - **Meta FAIR**: I worked on mitigating accent bias for the [Massively Multilingual Speech model](https://about.fb.com/news/2023/05/ai-massively-multilingual-speech-technology/).
