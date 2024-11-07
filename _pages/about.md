@@ -15,15 +15,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a incoming fourth-year Ph.D. student in Computer Science at [Brown University](https://cs.brown.edu/), advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). Currently interning at Meta AI and will be back to my PhD program in Spring 2025. My broad research goal is to develop AI that is safe and helpful for all users around the world.
+I am a incoming fourth-year Ph.D. student in Computer Science at [Brown University](https://cs.brown.edu/), advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). Currently interning at Meta AI and will be back to my PhD program in Spring 2025. **<span style="color:brown;">My broad research goal is to develop AI that is safe and helpful for all users around the world.</span>**
 
-**My current focus is to make multilingual LLMs safer**, particular on cross-lingual transfer of LLM safety alignment.
-My notable contributions to AI safety includes:
-- I discovered that [low-resource languages can jailbreak GPT-4 (&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work was highlighted in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai), and it catalyzed the paradigm shift in industry AI labs towards multilingual red-teaming.
-- I use interpretability methods to predict how safety alignment generalizes zero-shot in the multilingual setting. I have investigated toxicity reduction ([Findings of EMNLP 2024](https://arxiv.org/abs/2406.16235)) and finetuning attacks ([preprint](https://arxiv.org/abs/2410.18210)) on multilingual LLMs.
-- I have done safety red-teaming research in frontier AI labs. 
-  - **<span style="color:brown;">Meta AI (GenAI and FAIR)</span>**: I worked on understanding finetuning attacks on Llama-3.1 and QWen-2 ([preprint](https://arxiv.org/abs/2410.18210)). I also worked on red-teaming Massively Multilingual Speech models.
-  - **<span style="color:brown;">Cohere For AI</span>**: I worked on red-teaming Aya-101 [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827). 
+**My current research focus is making multilingual LLMs safer**. My notable contributions to AI safety research:
+- 🔎 I study/predict how safety alignment generalizes in the multilingual setting with mechanistic interpretability. I have investigated zero-shot cross-lingual generalization of toxicity reduction ([Findings of EMNLP 2024](https://arxiv.org/abs/2406.16235)) and finetuning attacks ([preprint](https://arxiv.org/abs/2410.18210)). 
+- 🚨 I discovered that [low-resource languages can jailbreak GPT-4 (&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work was highlighted in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai), and it catalyzed the paradigm shift in industry AI labs towards multilingual red-teaming.
+- ⛑️ I have done safety red-teaming research at frontier AI labs. 
+  - **Meta AI (GenAI and FAIR)**: I worked on understanding finetuning attacks on Llama-3.1 and QWen-2 ([preprint](https://arxiv.org/abs/2410.18210)). I also worked on red-teaming Massively Multilingual Speech models.
+  - **Cohere For AI**: I worked on red-teaming Aya-101 [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827). 
 
 
 **I also worked on making LLMs overcome language barriers** and support underrepresented languages. I've worked on adapting LLMs to low-resource languages [(ACL 2023)](https://arxiv.org/abs/2212.09535), generating synthetic data for extremely low-resource languages [(Findings of EMNLP 2024)](https://arxiv.org/abs/2402.14086), and developing multilingual AI models at [Meta AI (FAIR)](https://ai.meta.com/research/), [Cohere For AI (Aya)](https://cohere.com/research/aya), and [BigScience](https://bigscience.huggingface.co/).
