@@ -7,7 +7,7 @@ subtitle: <span style='color:grey'>Current&#58; Computer Science Ph.D. @ <a href
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: 
 
 news: true # includes a list of news items
@@ -20,7 +20,8 @@ I am a fourth-year Ph.D. student in Computer Science at [Brown University](https
 I work on safety alignment after discovering that <span style="color:brown; font-weight:bold;">low-resource languages can jailbreak GPT-4 </span> [(&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work pioneered multilingual red-teaming and was highlighted in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai).
 
 My other safety research work:
-- **Explaining success/failure in safety generalization** such as zero-shot toxicity reduction ([EMNLP 2024 Findings](https://arxiv.org/abs/2406.16235)) across languages and finetuning attacks on multilingual LLMs ([preprint](https://arxiv.org/abs/2410.18210)).
+- Using mechanistic interpretability to understand why alignment training can **reduce toxicity in LLMs across languages** ([EMNLP 2024 Findings](https://arxiv.org/abs/2406.16235)).
+- Explaining why **finetuning attacks generalize across languages** ([preprint](https://arxiv.org/abs/2410.18210)).
 - Performing **safety red-teaming** for frontier multilingual LLMs such as Aya [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827).
 
 
