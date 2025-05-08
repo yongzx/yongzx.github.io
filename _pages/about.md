@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am also fortunate to have done research at [Meta (FAIR and GenAI Safety Alignment)](https://ai.meta.com/research/), [Cohere For AI](https://cohere.com/research/aya), and [BigScience](https://bigscience.huggingface.co/). My broad research vision is to develop LLMs that are safe and helpful for everyone.
+I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am also fortunate to have done research at [Meta (FAIR and GenAI Safety Alignment)](https://ai.meta.com/research/), [Cohere For AI](https://cohere.com/research/aya), and [BigScience](https://bigscience.huggingface.co/). My broad research vision is to develop LLMs that are helpful and safe for everyone in the world.
 
 My current focus is on **test-time scaling and reasoning language models**. My most recent work is about how scaling up thinking tokens can improve crosslingual reasoning performance.
 
