@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am also fortunate to have done research at [Meta (FAIR and GenAI Safety Alignment)](https://ai.meta.com/research/), [Cohere For AI](https://cohere.com/research/aya), and [BigScience](https://bigscience.huggingface.co/). My broad research vision is to develop LLMs that are safe and helpful for everyone.
 
-My current focus is on understanding the generalization of **reasoning** finetuning of LLMs. My most recent work is about how test-time scaling can improve crosslingual reasoning performance.
+My current focus is on **test-time scaling and reasoning language models**. My most recent work is about how scaling up thinking tokens can improve crosslingual reasoning performance.
 
 I work on **safety alignment** after discovering that low-resource languages can jailbreak GPT-4 [(&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)](https://arxiv.org/abs/2310.02446). This work pioneered multilingual red-teaming and was highlighted in the [International Scientific Report on the Safety of Advanced AI 2024](https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai). I also study cross-lingual generalization of both safety training [(EMNLP 2024 Findings)](https://arxiv.org/abs/2406.16235) and fine-tuning attacks [(NAACL 2025 Findings)](https://arxiv.org/abs/2410.18210). I also have industry experience red-teaming for frontier multilingual LLMs such as Aya [(&#11089;Best Paper Award, ACL 2024)](https://arxiv.org/abs/2402.07827).
 
