@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span style='color:grey'>Current&#58; Computer Science Ph.D. @ Brown University<br>Prev&#58; Research Scientist Intern @ <a href='https://ai.meta.com/' style='color:#222222'>Meta AI</a>, Research Collaborator @ <a href='https://cohere.com/research' style='color:#222222'>Cohere For AI</a></span>
+subtitle: <span style='color:grey'>Current&#58; Computer Science Ph.D. @ Brown University<br>Past&#58; Research Scientist Intern @ <a href='https://ai.meta.com/' style='color:#222222'>Meta AI</a>, Research Collaborator @ <a href='https://cohere.com/research' style='color:#222222'>Cohere For AI</a></span>
 
 profile:
   align: right
