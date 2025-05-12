@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 </style>
 
 
-I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am fortunate to have worked with researchers at <u>Meta GenAI Safety Alignment</u> (with [Jianfeng Chi](https://jfchi.github.io/)), <u>Meta AI FAIR</u> (with [Jean Maillard](https://maillard.it/) and [Michael Auli](https://michaelauli.github.io/)), and <u>Cohere Labs</u> (with [Julia Kreutzer](https://juliakreutzer.github.io/), [Beyza Ermis](https://scholar.google.com/citations?user=v2cMiCAAAAAJ&hl=en), [Marzieh Fadaee](https://marziehf.github.io/), and [Sara Hooker](https://www.sarahooker.me/)).
+I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am fortunate to have worked with researchers at <u>Meta GenAI Safety Alignment</u> (with [Jianfeng Chi](https://jfchi.github.io/)), <u>Meta AI FAIR</u> (with [Jean Maillard](https://maillard.it/) and [Michael Auli](https://michaelauli.github.io/)), and <u>Cohere Labs</u> (with [Julia Kreutzer](https://juliakreutzer.github.io/), [Beyza Ermis](https://scholar.google.com/citations?user=v2cMiCAAAAAJ&hl=en), [Marzieh Fadaee](https://marziehf.github.io/), and [Sara Hooker](https://www.sarahooker.me/)). I work on post-training.
 
 My current focus is on **scaling reasoning compute**. My most recent work shows that test-time scaling can unlock crosslingual reasoning through "quote-and-think" pattern [(preprint)](https://arxiv.org/abs/2505.05408). More work to come soon :)
 
