@@ -130,7 +130,7 @@
 
     {% if entry.media1 %}
       <div>
-          Also featured in: 
+          <span style="background-color: #FFEBB3;">Also featured in:</span>
           <a href="{{ entry.media1url }}">{{entry.media1}}</a>
           {% if entry.media2 %}, <a href="{{ entry.media2url }}">{{entry.media2}}</a>{% endif %}
           {% if entry.media3 %}, <a href="{{ entry.media3url }}">{{entry.media3}}</a>, etc.{% endif %}
@@ -139,9 +139,6 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -157,6 +154,9 @@
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
+      {% endif %}
+      {% if entry.abstract %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}

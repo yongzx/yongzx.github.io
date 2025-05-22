@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Meta AI**: Started my research scientist internship at Meta AI (FAIR), working on [Massively Multilingual Speech (MMS)](https://ai.meta.com/blog/multilingual-model-speech-recognition/) models. Also collaborated with GenAI Trust Team on a multilingual safety project.
+Started research scientist internship at Meta AI (FAIR)!

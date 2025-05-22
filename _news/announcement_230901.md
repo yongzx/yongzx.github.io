@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Cohere For AI**: Joining the Responsible Deployment Team for [Aya](https://sites.google.com/cohere.com/aya-en/home) red-teaming.
+Joined the Cohere For AI's Responsible Deployment Team for [Aya](https://sites.google.com/cohere.com/aya-en/home) red-teaming.
