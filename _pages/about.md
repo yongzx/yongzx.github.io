@@ -54,7 +54,7 @@ My research interests and past work include:
 
 <div class="research-grid">
   <div class="research-box box-1">
-    <strong>Generalization of reasoning and test-time thinking.</strong> I investigated how test-time scaling of reasoning models generalizes to unseen languages and domains. My most recent work shows successful crosslingual generalization through the "quote-and-think" pattern, but limited cross-domain transfer from math domains <a href="https://arxiv.org/abs/2505.05408">(preprint)</a>.
+    <strong>Generalization of reasoning and test-time thinking.</strong> I investigated how test-time scaling of English math reasoning models generalizes to other languages and domains. My most recent work shows successful crosslingual generalization due to the "quote-and-think" pattern, but limited cross-domain transfer <a href="https://arxiv.org/abs/2505.05408">(preprint)</a>.
   </div>
 
   <div class="research-box box-2">
