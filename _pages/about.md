@@ -66,7 +66,7 @@ My research interests and past work include:
   </div>
 
   <div class="research-box box-4">
-    <strong>Efficient adaptation to unseen languages and speech accents</strong>: I investigate how pretrained models can efficiently generalize to unseen languages through language adaptation <a href="https://arxiv.org/abs/2212.09535">(ACL 2023)</a> and synthetic data <a href="https://arxiv.org/abs/2402.14086">(EMNLP 2024 Findings)</a>, contributing to mid-training methodologies. I also studied speech pattern distributions across accent groups to enable automatic speech recognition (ASR) models to generalize to unseen speech accents (INTERSPEECH 2025).
+    <strong>Efficient adaptation to unseen languages and speech accents</strong>: I investigated how pretrained models can efficiently generalize to unseen languages through language adaptation <a href="https://arxiv.org/abs/2212.09535">(ACL 2023)</a> and synthetic data <a href="https://arxiv.org/abs/2402.14086">(EMNLP 2024 Findings)</a>, contributing to mid-training methodologies. I also studied speech pattern distributions across accent groups to enable automatic speech recognition (ASR) models to generalize to unseen speech accents (INTERSPEECH 2025).
   </div>
 </div>
 
