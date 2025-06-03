@@ -1,0 +1,6 @@
+{% assign misc_page = site.pages | where: "title", "Misc" | first %}
+<div class="misc">
+  <div class="misc-content">
+    {{ misc_page.content | markdownify }}
+  </div>
+</div> 

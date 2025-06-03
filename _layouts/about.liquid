@@ -40,6 +40,15 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Selected papers -->
+    <hr>
+    {% if page.selected_papers %}
+      <h2>
+        featured work (<a href="{{ '/publications/' | relative_url }}" style="color: inherit">see all</a>)
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+    
     <!-- Latest posts -->
     {% if page.latest_posts %}
       <h2>
@@ -48,9 +57,9 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <hr>
-
+    
     <!-- News -->
+    <hr>
     {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
@@ -58,17 +67,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Miscellaneous -->
     <hr>
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
+    {% if page.misc %}
       <h2>
-        selected publications (<a href="{{ '/publications/' | relative_url }}" style="color: inherit">see all</a>)
+        <a href="{{ '/misc/' | relative_url }}" style="color: inherit">miscellaneous</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include misc.liquid %}
     {% endif %}
-
-    <hr>
 
     <!-- Social -->
     {% if page.social %}
@@ -80,3 +86,4 @@ layout: default
     {% endif %}
   </article>
 </div>
+
