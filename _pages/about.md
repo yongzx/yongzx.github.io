@@ -48,7 +48,13 @@ misc: true # includes miscellaneous content
 
 I am a fourth-year Ph.D. student in Computer Science at Brown University, advised by [Prof. Stephen Bach](https://scholar.google.com/citations?user=hs6pGXoAAAAJ&hl=en). I am fortunate to have worked with researchers at <u>Meta GenAI</u> (with [Jianfeng Chi](https://jfchi.github.io/)), <u>Meta AI FAIR</u> (with [Jean Maillard](https://maillard.it/) and [Michael Auli](https://michaelauli.github.io/)), and <u>Cohere Labs</u> (with [Julia Kreutzer](https://juliakreutzer.github.io/), [Beyza Ermis](https://scholar.google.com/citations?user=v2cMiCAAAAAJ&hl=en), [Marzieh Fadaee](https://marziehf.github.io/), and [Sara Hooker](https://www.sarahooker.me/)). 
 
-I work on generalization of post-training to make models more capable and safe, often using cross-language phenomena as scientific lens to reveal core principles of how LLMs generalize to out-of-distribution languages, domains, and tasks. I was a main contributor to [T0](https://arxiv.org/abs/2110.08207)/[mT0](https://arxiv.org/abs/2211.01786) and [Aya](https://arxiv.org/abs/2402.07827), and I discovered [crosslingual jailbreaks](https://arxiv.org/abs/2310.02446) and [crosslingual test-time thinking](https://arxiv.org/abs/2505.05408). 
+I currently work on reasoning and alignment. My recent work/findings include:
+- test-time scaling of reasoning models generalizes well to new languages but not new domains <a href="https://arxiv.org/abs/2505.05408">(preprint)</a>.
+- more coming soon :)
+
+My past research focus is on building safe and capable multilingual LLMs. Some of my notable work includes Aya model <a href="https://arxiv.org/abs/2402.07827">(&#11089;Best Paper Award, ACL 2024)</a> and discovery that low-resource languages can jailbreak GPT-4 <a href="https://arxiv.org/abs/2310.02446">(&#11089;Best Paper Award, NeurIPS 2023 Socially Responsible Language Modeling Workshop)</a>, which became the seminal work for multilingual red-teaming.
+
+<!-- I work on generalization of post-training to make models more capable and safe, often using cross-language phenomena as scientific lens to reveal core principles of how LLMs generalize to out-of-distribution languages, domains, and tasks. I was a main contributor to [T0](https://arxiv.org/abs/2110.08207)/[mT0](https://arxiv.org/abs/2211.01786) and [Aya](https://arxiv.org/abs/2402.07827), and I discovered [crosslingual jailbreaks](https://arxiv.org/abs/2310.02446) and [crosslingual test-time thinking](https://arxiv.org/abs/2505.05408). 
 
 My research interests and past work include:
 
@@ -72,4 +78,4 @@ My research interests and past work include:
   </div>
 </div>
 
-
+ -->
